@@ -1,25 +1,23 @@
-import type { NextPage } from 'next';
+import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
+import mapboxgl from 'mapbox-gl';
 import { useEffect, useRef, useState } from 'react';
 
-import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
-import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
-import mapboxgl from 'mapbox-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
+interface UseMap {}
 
-const Map: NextPage = () => {
-  const mapContainer = useRef<any>(null);
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN ?? '';
+
+const useMap: UseMap = ({}) => {
+  const container = useRef<any>(null);
   const map = useRef<mapboxgl.Map | any>(null);
   const [lng, setLng] = useState(120.8114);
   const [lat, setLat] = useState(14.8437);
   const [zoom, setZoom] = useState(10);
 
-  mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN ?? '';
-
   useEffect(() => {
     if (map.current || !mapboxgl.accessToken) return;
 
     map.current = new mapboxgl.Map({
-      container: mapContainer.current,
+      container: container.current,
       style: 'mapbox://styles/mapbox/streets-v11',
       center: [lng, lat],
       zoom: zoom,
@@ -44,18 +42,7 @@ const Map: NextPage = () => {
     });
   });
 
-  if (!mapboxgl.accessToken) {
-    return <div>You don&apos;t have access to mapbox</div>;
-  }
-
-  return (
-    <main className="w-screen h-screen">
-      <div className="sidebar">
-        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-      </div>
-      <div ref={mapContainer} className="w-full h-full" />
-    </main>
-  );
+  return {};
 };
 
-export default Map;
+export default useMap;
