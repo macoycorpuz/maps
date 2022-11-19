@@ -13,7 +13,30 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          100: 'var(--primary-100)',
+          300: 'var(--primary-300)',
+          500: 'var(--primary-500)',
+          700: 'var(--primary-700)',
+          900: 'var(--primary-900)',
+        },
+        secondary: {
+          100: 'var(--secondary-100)',
+          300: 'var(--secondary-300)',
+          500: 'var(--secondary-500)',
+          700: 'var(--secondary-700)',
+          900: 'var(--secondary-900)',
+        },
+        tertiary: {
+          300: 'var(--tertiary-300)',
+          500: 'var(--tertiary-500)',
+          700: 'var(--tertiary-700)',
+          900: 'var(--tertiary-900)',
+        },
+      },
+    },
   },
   variants: {
     extend: {

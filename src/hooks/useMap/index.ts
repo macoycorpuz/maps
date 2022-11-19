@@ -12,11 +12,8 @@ const useMap = () => {
     if (map.current || !container?.current) return;
     map.current = init({
       container: container.current,
-      style: 'mapbox://styles/minerva-technologies/clajo46q9000l14rybut2m850',
       center: [lng, lat],
       zoom: zoom,
-      hash: true,
-      bearingSnap: 0,
     });
 
     map.current.on('move', () => {
