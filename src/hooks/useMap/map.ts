@@ -23,12 +23,13 @@ export const init = (options: MapboxOptions) => {
     style,
     hash: true,
     bearingSnap: 0,
+    attributionControl: false,
     ...options,
   });
   const geocoder = new MapboxGeocoder(geocoderOptions);
   const nav = new mapboxgl.NavigationControl();
-  map.addControl(geocoder);
-  map.addControl(nav);
+  map.addControl(geocoder, 'top-left');
+  map.addControl(nav, 'bottom-right');
   map.on('load', () => {
     municipalityHoverLayer(map);
     barangayHoverLayer(map);

@@ -1,9 +1,10 @@
+import mapboxgl from 'mapbox-gl';
 import { useEffect, useRef, useState } from 'react';
 import { init } from './map';
 
 const useMap = () => {
   const container = useRef<any>(null);
-  const map = useRef<any>(null);
+  const map = useRef<mapboxgl.Map>();
   const [lng, setLng] = useState(121.0736);
   const [lat, setLat] = useState(14.9828);
   const [zoom, setZoom] = useState(9.76);
@@ -17,9 +18,9 @@ const useMap = () => {
     });
 
     map.current.on('move', () => {
-      setLng(map.current.getCenter().lng.toFixed(4));
-      setLat(map.current.getCenter().lat.toFixed(4));
-      setZoom(map.current.getZoom().toFixed(2));
+      setLng(Number(map.current?.getCenter().lng.toFixed(4)));
+      setLat(Number(map.current?.getCenter().lat.toFixed(4)));
+      setZoom(Number(map.current?.getZoom().toFixed(2)));
     });
   });
 
