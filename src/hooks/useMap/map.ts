@@ -5,27 +5,25 @@ import mapboxgl, { MapboxOptions } from 'mapbox-gl';
 const style = 'mapbox://styles/minerva-technologies/clajo46q9000l14rybut2m850';
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN ?? '';
 
-// Vector Sources
-// barangay source: minerva-technologies.200xi30f
-// municipalities: minerva-technologies.diprsdmg
-// mapbox://mapbox.mapbox-bathymetry-v2
-// mapbox.mapbox-streets-v8
-// mapbox.country-boundaries-v1
-// mapbox.mapbox-terrain-v2
+export const init = (customOptions: MapboxOptions) => {
+  const options: MapboxOptions = {
+    style,
+    hash: true,
+    bearingSnap: 0,
+    attributionControl: false,
+    maxBounds: [
+      [120.4484, 14.5361],
+      [121.6697, 15.315],
+    ],
+    ...customOptions,
+  };
 
-export const init = (options: MapboxOptions) => {
   const geocoderOptions: GeocoderOptions = {
     accessToken: mapboxgl.accessToken,
     mapboxgl: mapboxgl,
   };
 
-  const map = new mapboxgl.Map({
-    style,
-    hash: true,
-    bearingSnap: 0,
-    attributionControl: false,
-    ...options,
-  });
+  const map = new mapboxgl.Map(options);
   const geocoder = new MapboxGeocoder(geocoderOptions);
   const nav = new mapboxgl.NavigationControl();
   map.addControl(geocoder, 'top-left');
