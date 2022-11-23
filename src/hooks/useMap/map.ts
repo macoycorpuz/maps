@@ -1,12 +1,12 @@
-import MapboxGeocoder, { GeocoderOptions } from '@mapbox/mapbox-gl-geocoder';
+import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 import mapboxgl, { MapboxOptions } from 'mapbox-gl';
 
 // const style = 'mapbox://styles/mapbox/streets-v12';
 const style = 'mapbox://styles/minerva-technologies/clajo46q9000l14rybut2m850';
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN ?? '';
 
-export const init = (customOptions: MapboxOptions) => {
-  const options: MapboxOptions = {
+export const initMap = (options: MapboxOptions) => {
+  const map = new mapboxgl.Map({
     style,
     hash: true,
     bearingSnap: 0,
@@ -15,25 +15,26 @@ export const init = (customOptions: MapboxOptions) => {
       [120.4484, 14.5361],
       [121.6697, 15.315],
     ],
-    ...customOptions,
-  };
-
-  const geocoderOptions: GeocoderOptions = {
-    accessToken: mapboxgl.accessToken,
-    mapboxgl: mapboxgl,
-  };
-
-  const map = new mapboxgl.Map(options);
-  const geocoder = new MapboxGeocoder(geocoderOptions);
-  const nav = new mapboxgl.NavigationControl();
-  map.addControl(geocoder, 'top-left');
-  map.addControl(nav, 'bottom-right');
-  map.on('load', () => {
-    municipalityHoverLayer(map);
-    barangayHoverLayer(map);
+    ...options,
   });
 
+  const nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, 'bottom-right');
+  map.on('load', () => onLoad(map));
   return map;
+};
+
+export const initSearchBox = () => {
+  const geocoder = new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    mapboxgl: mapboxgl,
+  });
+  return geocoder;
+};
+
+const onLoad = (map: mapboxgl.Map) => {
+  municipalityHoverLayer(map);
+  barangayHoverLayer(map);
 };
 
 const municipalityHoverLayer = (map: mapboxgl.Map) => {

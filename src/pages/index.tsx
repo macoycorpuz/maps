@@ -6,12 +6,13 @@ import Sidebar from '../components/Sidebar';
 import useMap from '../hooks/useMap/useMap';
 
 const Map: NextPage = () => {
-  const { container, lng, lat, zoom } = useMap();
+  const { container, lng, lat, zoom, searchRef } = useMap();
 
   return (
-    <main className="flex h-screen w-screen">
-      <Sidebar isOpen={true} />
-      <div ref={container} className="h-full w-full" />
+    <>
+      <Sidebar>
+        <div ref={searchRef} className="m-2 rounded-lg" />
+      </Sidebar>
 
       <MapInfo>
         Center: {lng}, {lat}
@@ -19,7 +20,9 @@ const Map: NextPage = () => {
         Zoom: {zoom}
         <br />
       </MapInfo>
-    </main>
+
+      <div id="map" ref={container} className="fixed h-screen w-screen" />
+    </>
   );
 };
 

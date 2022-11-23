@@ -6,8 +6,8 @@ interface Props {
 
 const NavFooter: React.FC<Props> = ({ name }) => {
   return (
-    <div className="flex flex-shrink-0 px-4 py-4">
-      <div className="group block w-full flex-shrink-0">
+    <div className="flex flex-shrink-0 border-t px-2 py-4">
+      <div className="group flex w-full flex-shrink-0">
         <div className="flex items-center">
           <UserIcon className="h-5 w-5 text-gray-500" />
           <div className="ml-3">

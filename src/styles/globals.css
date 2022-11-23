@@ -38,12 +38,12 @@ a {
   box-sizing: border-box;
 }
 
-.map-container {
-  height: 400px;
+.mapboxgl-ctrl-geocoder {
+  @apply !min-w-full !max-w-full !rounded-lg !border !shadow-white;
 }
 
-.mapboxgl-ctrl-geocoder {
-  @apply !w-2/3 !min-w-full !max-w-full;
+.mapboxgl-ctrl-geocoder input {
+  @apply !border;
 }
 
 .mapboxgl-ctrl-logo {
