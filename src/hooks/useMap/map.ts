@@ -12,8 +12,8 @@ export const initMap = (options: MapboxOptions) => {
     bearingSnap: 0,
     attributionControl: false,
     maxBounds: [
-      [120.4484, 14.5361],
-      [121.6697, 15.315],
+      [119.4, 13.5],
+      [122, 16],
     ],
     ...options,
   });
