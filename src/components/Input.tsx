@@ -45,9 +45,9 @@ const Input: Component = ({ label, type, error }, ref) => {
         <div className="absolute inset-y-0 right-0 flex items-center pr-3">
           {error && <ExclamationCircleIcon className="h-5 w-5 text-red-500" />}
           {type === 'password' && (
-            <button className="cursor-pointer" onClick={toggle}>
+            <div className="cursor-pointer" onClick={toggle}>
               {isPasswordVisible ? <Close /> : <Open />}
-            </button>
+            </div>
           )}
         </div>
       </div>

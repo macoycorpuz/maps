@@ -49,7 +49,6 @@ const AuthProvider: IAuthProvider = ({ children }) => {
   }, [authenticate]);
 
   const login = (loginOpts: UsernamePasswordOpts) => {
-    console.log('login()');
     setIsLoading(true);
     Auth.signIn(loginOpts)
       .then(user => {
@@ -85,6 +84,7 @@ const AuthProvider: IAuthProvider = ({ children }) => {
       error,
       login,
       logout,
+      setError,
     }),
     [user, apiAttributes, isLoading, error]
   );
