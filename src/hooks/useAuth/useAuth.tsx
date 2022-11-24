@@ -39,6 +39,7 @@ const AuthProvider: IAuthProvider = ({ children }) => {
         setError(error);
         if (error === 'The user is not authenticated') {
           setError(undefined);
+          Router.replace('/login');
         }
       })
       .finally(() => setIsLoadingInitial(false));

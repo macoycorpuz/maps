@@ -1,10 +1,11 @@
-import { UserIcon } from '@heroicons/react/24/solid';
+import { ArrowLeftOnRectangleIcon, UserIcon } from '@heroicons/react/24/solid';
 
 interface Props {
   name?: string;
+  logout: () => void;
 }
 
-const NavFooter: React.FC<Props> = ({ name }) => {
+const NavFooter: React.FC<Props> = ({ name, logout }) => {
   return (
     <div className="flex flex-shrink-0 border-t px-2 py-4">
       <div className="group flex w-full flex-shrink-0">
@@ -15,6 +16,12 @@ const NavFooter: React.FC<Props> = ({ name }) => {
               {name ?? <span className="text-red-500">Invalid User</span>}
             </p>
           </div>
+          <button
+            className="group absolute right-2 text-gray-500 hover:text-gray-900"
+            onClick={logout}
+          >
+            <ArrowLeftOnRectangleIcon className="h-5 w-5 " />
+          </button>
         </div>
       </div>
     </div>

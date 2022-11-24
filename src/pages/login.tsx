@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import { FormEvent, useRef } from 'react';
 import Logo from '../../public/images/colored/landscape.svg';
 import Input from '../components/Input';
+import Loader from '../components/Loader';
 import { useAuth } from '../hooks/useAuth/useAuth';
 
 const Login = () => {
@@ -23,7 +24,7 @@ const Login = () => {
 
   if (user) {
     router.replace('/');
-    return <div>Loading...</div>;
+    return <Loader />;
   }
 
   return (

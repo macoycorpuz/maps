@@ -3,6 +3,7 @@ import {
   ChevronDoubleRightIcon,
 } from '@heroicons/react/24/solid';
 import { useState } from 'react';
+import { useAuth } from '../hooks/useAuth/useAuth';
 import { classNames } from '../lib/classNames';
 import Areas from './Areas';
 import Footer from './Footer';
@@ -17,6 +18,7 @@ interface Props {
 const tabs = ['Markers', 'Areas', 'General Info'];
 
 const Sidebar: React.FC<Props> = ({ children }) => {
+  const { user, logout } = useAuth();
   const [isOpen, setIsOpen] = useState(true);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -35,7 +37,7 @@ const Sidebar: React.FC<Props> = ({ children }) => {
           <Markers markers={[]} />
           <GeneralInfo />
         </Tabs>
-        <Footer name="Marcuz Corpuz" />
+        <Footer name={user?.attributes.name} logout={logout} />
       </div>
 
       <button
