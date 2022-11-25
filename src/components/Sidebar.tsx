@@ -10,6 +10,7 @@ import Footer from './Footer';
 import GeneralInfo from './GeneralInfo';
 import Markers from './Markers';
 import Tabs from './Tabs';
+import Weather from './Weather';
 
 interface Props {
   children?: React.ReactNode;
@@ -37,15 +38,19 @@ const Sidebar: React.FC<Props> = ({ children }) => {
           <Markers markers={[]} />
           <GeneralInfo />
         </Tabs>
-        <Footer name={user?.attributes.name} logout={logout} />
+        <div>
+          <Weather />
+          <Footer name={user?.attributes.name} logout={logout} />
+        </div>
       </div>
 
       <button
+        id="toggle-sidebar"
+        onClick={toggle}
         className={classNames(
           'fixed top-1/2 z-20 rounded-r-lg bg-white py-2 px-1 hover:bg-gray-300',
           isOpen ? 'left-72' : 'left-0'
         )}
-        onClick={toggle}
       >
         {isOpen ? (
           <ChevronDoubleLeftIcon className="h-5 w-5" />

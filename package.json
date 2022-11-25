@@ -24,6 +24,7 @@
     "eslint-config-next": "13.0.2",
     "mapbox-gl": "^2.10.0",
     "mapbox-gl-controls": "^2.3.5",
+    "moment": "^2.29.4",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",

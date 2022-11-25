@@ -5,7 +5,7 @@ interface Props {
   logout: () => void;
 }
 
-const NavFooter: React.FC<Props> = ({ name, logout }) => {
+const Footer: React.FC<Props> = ({ name, logout }) => {
   return (
     <div className="flex flex-shrink-0 border-t px-2 py-4">
       <div className="group flex w-full flex-shrink-0">
@@ -28,4 +28,4 @@ const NavFooter: React.FC<Props> = ({ name, logout }) => {
   );
 };
 
-export default NavFooter;
+export default Footer;
