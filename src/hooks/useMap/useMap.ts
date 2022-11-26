@@ -29,7 +29,7 @@ const useMap = () => {
     searchRef.current?.appendChild(geocoder.onAdd(map.current));
   });
 
-  return { container, lng, lat, zoom, searchRef };
+  return { container, lng, lat, zoom, searchRef, map: map.current };
 };
 
 export default useMap;

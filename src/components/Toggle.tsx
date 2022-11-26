@@ -13,7 +13,6 @@ const Toggle: React.FC<Props> = ({ enabled, onChange }) => {
       onChange={onChange}
       className="group relative mr-2 inline-flex h-5 w-10 flex-shrink-0 cursor-pointer items-center justify-center rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
     >
-      <span className="sr-only">Use setting</span>
       <span
         aria-hidden="true"
         className="pointer-events-none absolute h-full w-full rounded-md bg-white"

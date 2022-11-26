@@ -1,7 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import moment from 'moment';
 import Image from 'next/image';
-import { useEffect } from 'react';
 import Loader from './Loader';
 
 interface Props {}
@@ -17,9 +16,6 @@ const fetchCurrentWeather = async () => {
 const Weather: React.FC<Props> = () => {
   const { data, isLoading, error } = useQuery(['weather'], fetchCurrentWeather);
 
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
   if (isLoading) {
     return (
       <div className="flex w-full justify-center py-4">

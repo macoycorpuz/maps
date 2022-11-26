@@ -1,3 +1,4 @@
+import { Switch } from '@headlessui/react';
 import {
   BuildingLibraryIcon,
   HomeIcon,
@@ -27,30 +28,34 @@ const layers = [
   },
 ];
 
-const Layers = () => {
+const Layers: React.FC = () => {
   const [settings, setSettings] = useLocalStorage<{ [k: string]: boolean }>(
-    'layer-settings',
+    'layerSettings',
     Object.fromEntries(layers.map(l => [l.id, l.default]))
   );
 
-  const onChange = (layer: string) =>
-    setSettings(prev => ({ ...prev, [layer]: !prev[layer] }));
+  const onChange = (layer: string, isVisible: boolean) => {
+    setSettings(prev => ({ ...prev, [layer]: isVisible }));
+  };
 
   return (
-    <ul className="space-y-2 px-2 py-4 text-sm">
+    <ul className="space-y-3 px-2 py-4 text-sm">
       {layers.map(layer => (
-        <li key={layer.id} className="group">
-          <button
-            className="flex w-full items-center justify-between space-x-2"
-            onClick={() => onChange(layer.id)}
-          >
-            <div className="flex items-center">
-              {layer.icon}
-              <span className="group-hover:underline">{layer.label}</span>
-            </div>
-            <Toggle enabled={settings[layer.id]} />
-          </button>
-        </li>
+        <Switch.Group
+          as="li"
+          id={layer.id}
+          key={layer.id}
+          className="group flex w-full items-center justify-between space-x-2"
+        >
+          <Switch.Label className="flex w-full cursor-pointer items-center">
+            {layer.icon}
+            <span className="group-hover:underline">{layer.label}</span>
+          </Switch.Label>
+          <Toggle
+            enabled={settings[layer.id]}
+            onChange={checked => onChange(layer.id, checked)}
+          />
+        </Switch.Group>
       ))}
     </ul>
   );
