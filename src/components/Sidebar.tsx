@@ -28,7 +28,7 @@ const Sidebar: React.FC<Props> = ({ children }) => {
     <div
       className={classNames(
         'fixed z-10 flex h-full min-h-full flex-col overflow-y-auto bg-white',
-        isOpen ? 'w-72' : 'w-0'
+        isOpen ? 'w-80' : 'w-0'
       )}
     >
       {children}
@@ -49,7 +49,7 @@ const Sidebar: React.FC<Props> = ({ children }) => {
         onClick={toggle}
         className={classNames(
           'fixed top-1/2 z-20 rounded-r-lg bg-white py-2 px-1 hover:bg-gray-300',
-          isOpen ? 'left-72' : 'left-0'
+          isOpen ? 'left-80' : 'left-0'
         )}
       >
         {isOpen ? (
