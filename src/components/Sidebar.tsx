@@ -8,7 +8,7 @@ import { classNames } from '../lib/classNames';
 import Areas from './Areas';
 import Footer from './Footer';
 import GeneralInfo from './GeneralInfo';
-import Markers from './Markers';
+import Layers from './Layers';
 import Tabs from './Tabs';
 import Weather from './Weather';
 
@@ -16,7 +16,7 @@ interface Props {
   children?: React.ReactNode;
 }
 
-const tabs = ['Markers', 'Areas', 'General Info'];
+const tabs = ['Layers', 'Areas', 'General Info'];
 
 const Sidebar: React.FC<Props> = ({ children }) => {
   const { user, logout } = useAuth();
@@ -34,8 +34,8 @@ const Sidebar: React.FC<Props> = ({ children }) => {
       {children}
       <div className="flex flex-1 flex-col justify-between">
         <Tabs tabs={tabs}>
+          <Layers />
           <Areas areas={[]} />
-          <Markers markers={[]} />
           <GeneralInfo />
         </Tabs>
         <div>
