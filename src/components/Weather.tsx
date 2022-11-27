@@ -5,7 +5,7 @@ import Loader from './Loader';
 
 interface Props {}
 
-const fetchCurrentWeather = async () => {
+const fetchData = async () => {
   const domain = 'https://api.openweathermap.org/data/2.5';
   const appid = `&appid=${process.env.NEXT_PUBLIC_WEATHER_API_KEY}`;
   const url = `${domain}/weather?units=metric&q=bulacan,ph${appid}`;
@@ -14,7 +14,8 @@ const fetchCurrentWeather = async () => {
 };
 
 const Weather: React.FC<Props> = () => {
-  const { data, isLoading, error } = useQuery(['weather'], fetchCurrentWeather);
+  const options = { refetchInterval: 3600000 };
+  const { data, isLoading, error } = useQuery(['weather'], fetchData, options);
 
   if (isLoading) {
     return (
