@@ -1,22 +1,20 @@
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import type { NextPage } from 'next';
-import Areas from '../components/Areas';
 import Footer from '../components/Footer';
-import GeneralInfo from '../components/GeneralInfo';
+import Info from '../components/Info';
 import Layers from '../components/Layers';
-import MapInfo from '../components/MapInfo';
 import Sidebar from '../components/Sidebar';
 import Tabs from '../components/Tabs';
 import Weather from '../components/Weather';
 import { useAuth } from '../hooks/useAuth/useAuth';
 import useMap from '../hooks/useMap/useMap';
 
-const tabs = ['Layers', 'Areas', 'General Info'];
+const tabs = ['Info', 'Layers'];
 
 const Map: NextPage = () => {
   const { user, logout } = useAuth();
-  const { container, lng, lat, zoom, searchRef } = useMap();
+  const { container, searchRef } = useMap();
 
   return (
     <>
@@ -24,9 +22,8 @@ const Map: NextPage = () => {
         <div ref={searchRef} className="m-2 rounded-lg" />
         <div className="flex flex-1 flex-col justify-between">
           <Tabs tabs={tabs}>
+            <Info />
             <Layers />
-            <Areas areas={[]} />
-            <GeneralInfo />
           </Tabs>
           <div>
             <Weather />
@@ -34,14 +31,6 @@ const Map: NextPage = () => {
           </div>
         </div>
       </Sidebar>
-
-      <MapInfo lng={lng} lat={lat} zoom={zoom}>
-        <div id="layer-info" className="mt-2 flex flex-col">
-          <span id="municipality"></span>
-          <span id="population"></span>
-          <span id="barangay"></span>
-        </div>
-      </MapInfo>
 
       <div id="map" ref={container} className="fixed h-screen w-screen" />
     </>

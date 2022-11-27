@@ -143,7 +143,7 @@ const barangayHoverLayer = (map: mapboxgl.Map) => {
 
   const fillColor = 'hsl(42, 100%, 85%)';
   const minzoom = 12;
-  const maxzoom = 16;
+  const maxzoom = 15;
   let hoveredStateId: any = null;
 
   map.addLayer({
