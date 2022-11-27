@@ -14,8 +14,9 @@ const fetchData = async () => {
 };
 
 const Weather: React.FC<Props> = () => {
-  const options = { refetchInterval: 3600000 };
-  const { data, isLoading, error } = useQuery(['weather'], fetchData, options);
+  const { data, isLoading, error } = useQuery(['weather'], fetchData, {
+    refetchInterval: 3600000,
+  });
 
   if (isLoading) {
     return (
@@ -34,7 +35,7 @@ const Weather: React.FC<Props> = () => {
   }
 
   return (
-    <div className="flex items-center justify-between p-2">
+    <div className="flex cursor-pointer items-center justify-between p-2 hover:bg-blue-200">
       <div className="flex items-center space-x-1">
         <Image
           src={`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`}
