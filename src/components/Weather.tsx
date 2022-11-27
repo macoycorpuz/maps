@@ -9,7 +9,7 @@ const fetchWeather: QueryFunction<any, any> = async ({ queryKey }) => {
   const params = Object.entries(queryKey[1])
     .map(([key, value]) => `&${key}=${value}`)
     .join('');
-  const domain = 'http://api.openweathermap.org';
+  const domain = 'https://api.openweathermap.org';
   const apiKey = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
   const url = `${domain}/data/3.0/onecall?units=metric&appid=${apiKey}${params}`;
   const weather = await fetch(url).then(r => r.json());
