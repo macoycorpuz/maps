@@ -21,6 +21,7 @@ export const initMap = (options: MapboxOptions) => {
   const nav = new mapboxgl.NavigationControl();
   map.addControl(nav, 'bottom-right');
   map.on('load', () => onLoad(map));
+  map.on('idle', () => onIdle(map));
   return map;
 };
 
@@ -35,6 +36,22 @@ export const initSearchBox = () => {
 const onLoad = (map: mapboxgl.Map) => {
   municipalityHoverLayer(map);
   barangayHoverLayer(map);
+};
+
+const onIdle = (map: mapboxgl.Map) => {
+  toggleSwitch(map);
+};
+
+const toggleSwitch = (map: mapboxgl.Map) => {
+  const items = document.querySelectorAll('#layer-settings li');
+  items.forEach(item => {
+    item.addEventListener('click', (event: Event) => {
+      const element = <HTMLElement>event.target;
+      const isChecked = element.getAttribute('data-headlessui-state');
+      const visiblity = isChecked != 'checked' ? 'visible' : 'none';
+      map.setLayoutProperty(item.id, 'visibility', visiblity);
+    });
+  });
 };
 
 const municipalityHoverLayer = (map: mapboxgl.Map) => {

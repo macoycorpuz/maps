@@ -4,7 +4,7 @@ import {
   HomeIcon,
   MapPinIcon,
 } from '@heroicons/react/24/solid';
-import { useLocalStorage } from '../hooks/useLocalStorage/useLocalStorage';
+import { useState } from 'react';
 import Toggle from './Toggle';
 
 const layers = [
@@ -29,8 +29,7 @@ const layers = [
 ];
 
 const Layers: React.FC = () => {
-  const [settings, setSettings] = useLocalStorage<{ [k: string]: boolean }>(
-    'layerSettings',
+  const [settings, setSettings] = useState<{ [k: string]: boolean }>(
     Object.fromEntries(layers.map(l => [l.id, l.default]))
   );
 
@@ -39,7 +38,7 @@ const Layers: React.FC = () => {
   };
 
   return (
-    <ul className="space-y-3 px-2 py-4 text-sm">
+    <ul id="layer-settings" className="space-y-3 px-2 py-4 text-sm">
       {layers.map(layer => (
         <Switch.Group
           as="li"
