@@ -50,6 +50,12 @@ const toggleSwitch = (map: mapboxgl.Map) => {
       const isChecked = element.getAttribute('data-headlessui-state');
       const visiblity = isChecked != 'checked' ? 'visible' : 'none';
       map.setLayoutProperty(item.id, 'visibility', visiblity);
+      if (item.id.includes('municipality')) {
+        map.setLayoutProperty('municipality-fills', 'visibility', visiblity);
+      }
+      if (item.id.includes('barangay')) {
+        map.setLayoutProperty('barangay-fills', 'visibility', visiblity);
+      }
     });
   });
 };
@@ -61,7 +67,7 @@ const municipalityHoverLayer = (map: mapboxgl.Map) => {
   const filter = ['match', ['get', 'ADM2_EN'], ['Bulacan'], true, false];
 
   const fillColor = 'hsl(216, 94%, 55%)';
-  const minzoom = 8;
+  const minzoom = 9.3;
   const maxzoom = 12;
   let hoveredStateId: any = null;
 
