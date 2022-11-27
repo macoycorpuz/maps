@@ -1,5 +1,6 @@
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 import mapboxgl, { MapboxOptions } from 'mapbox-gl';
+import info from './info';
 
 // const style = 'mapbox://styles/mapbox/streets-v12';
 const style = 'mapbox://styles/minerva-technologies/clajo46q9000l14rybut2m850';
@@ -71,6 +72,11 @@ const municipalityHoverLayer = (map: mapboxgl.Map) => {
   const maxzoom = 12;
   let hoveredStateId: any = null;
 
+  const layer = document.querySelector('#layer-info');
+  const municipalityEl = document.querySelector('#municipality');
+  const populationEl = document.querySelector('#population');
+  const baragnayEl = document.querySelector('#barangay');
+
   map.addLayer({
     id: layerId,
     type: 'fill',
@@ -100,6 +106,14 @@ const municipalityHoverLayer = (map: mapboxgl.Map) => {
       );
     }
     hoveredStateId = e.features[0].id;
+
+    if (layer) {
+      const { municipality, population, barangay } = info(hoveredStateId);
+      municipalityEl!.innerHTML = `Municipality: ${municipality}`;
+      populationEl!.innerHTML = `Poulation: ${population}`;
+      baragnayEl!.innerHTML = `Number of Barangays: ${barangay}`;
+    }
+
     map.setFeatureState(
       { source, sourceLayer, id: hoveredStateId },
       { hover: true }
@@ -114,6 +128,10 @@ const municipalityHoverLayer = (map: mapboxgl.Map) => {
       );
     }
     hoveredStateId = null;
+
+    municipalityEl!.innerHTML = '';
+    populationEl!.innerHTML = '';
+    baragnayEl!.innerHTML = '';
   });
 };
 

@@ -35,11 +35,12 @@ const Map: NextPage = () => {
         </div>
       </Sidebar>
 
-      <MapInfo>
-        Center: {lng}, {lat}
-        <br />
-        Zoom: {zoom}
-        <br />
+      <MapInfo lng={lng} lat={lat} zoom={zoom}>
+        <div id="layer-info" className="mt-2 flex flex-col">
+          <span id="municipality"></span>
+          <span id="population"></span>
+          <span id="barangay"></span>
+        </div>
       </MapInfo>
 
       <div id="map" ref={container} className="fixed h-screen w-screen" />
