@@ -14,7 +14,7 @@ const Sidebar: React.FC<Props> = ({ children }) => {
   return (
     <div
       className={classNames(
-        'fixed z-20 flex h-full min-h-full flex-col overflow-y-auto bg-white',
+        'fixed z-10 flex h-full min-h-full flex-col overflow-y-auto bg-white',
         isOpen ? 'w-80' : 'w-0'
       )}
     >
@@ -24,7 +24,7 @@ const Sidebar: React.FC<Props> = ({ children }) => {
         id="toggle-sidebar"
         onClick={() => setIsOpen(prev => !prev)}
         className={classNames(
-          'fixed top-1/2 z-20 rounded-r-lg bg-white py-2 px-1 hover:bg-gray-300',
+          'fixed top-1/2 z-10 rounded-r-lg bg-white py-2 px-1 hover:bg-gray-300',
           isOpen ? 'left-80' : 'left-0'
         )}
       >
