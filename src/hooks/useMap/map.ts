@@ -20,7 +20,7 @@ export const initMap = (options: MapboxOptions) => {
   });
 
   const nav = new mapboxgl.NavigationControl();
-  map.addControl(nav, 'bottom-right');
+  map.addControl(nav);
   map.on('load', () => onLoad(map));
   map.on('idle', () => onIdle(map));
   return map;
@@ -72,11 +72,6 @@ const municipalityHoverLayer = (map: mapboxgl.Map) => {
   const maxzoom = 12;
   let hoveredStateId: any = null;
 
-  const layer = document.querySelector('#layer-info');
-  const municipalityEl = document.querySelector('#municipality');
-  const populationEl = document.querySelector('#population');
-  const baragnayEl = document.querySelector('#barangay');
-
   map.addLayer({
     id: layerId,
     type: 'fill',
@@ -107,6 +102,10 @@ const municipalityHoverLayer = (map: mapboxgl.Map) => {
     }
     hoveredStateId = e.features[0].id;
 
+    const layer = document.querySelector('#layer-info');
+    const municipalityEl = document.querySelector('#municipality');
+    const populationEl = document.querySelector('#population');
+    const baragnayEl = document.querySelector('#barangay');
     if (layer) {
       const { municipality, population, barangay } = info(hoveredStateId);
       municipalityEl!.innerHTML = `Municipality: ${municipality}`;
@@ -129,6 +128,12 @@ const municipalityHoverLayer = (map: mapboxgl.Map) => {
     }
     hoveredStateId = null;
 
+    const layer = document.querySelector('#layer-info');
+    const municipalityEl = document.querySelector('#municipality');
+    const populationEl = document.querySelector('#population');
+    const baragnayEl = document.querySelector('#barangay');
+
+    if (!layer) return;
     municipalityEl!.innerHTML = '';
     populationEl!.innerHTML = '';
     baragnayEl!.innerHTML = '';
