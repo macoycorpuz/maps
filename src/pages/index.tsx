@@ -2,9 +2,11 @@ import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import type { NextPage } from 'next';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Footer from '../components/Footer';
-import Info from '../components/Info';
+import BarangayInfo from '../components/info/BarangayInfo';
+import Info from '../components/info/Info';
+import MunicipalityInfo from '../components/info/MunicipalityInfo';
 import Layers from '../components/Layers';
 import Sidebar from '../components/Sidebar';
 import Tabs from '../components/Tabs';
@@ -23,9 +25,13 @@ const tabs = ['Info', 'Layers'];
 
 const Map: NextPage = () => {
   const { user, logout } = useAuth();
+
+  const map = useRef<mapboxgl.Map>();
   const mapRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLDivElement>(null);
-  const map = useRef<mapboxgl.Map>();
+
+  const [municipalityCode, setMunicipalityCode] = useState('');
+  const [barangayCode, setBarangayCode] = useState('');
 
   useEffect(() => {
     if (map.current || !mapRef?.current) return;
@@ -44,6 +50,18 @@ const Map: NextPage = () => {
 
       map.current.addLayer(fillLayerBarangay);
       hover(map.current, fillLayerBarangay, sourceLayerBarangay);
+
+      map.current.on('click', fillLayerMunicipality.id, e => {
+        if (!e.features || !e.features.length) return;
+        setBarangayCode('');
+        setMunicipalityCode(e.features[0].properties?.ADM3_PCODE);
+      });
+
+      map.current.on('click', fillLayerBarangay.id, e => {
+        if (!e.features || !e.features.length) return;
+        setMunicipalityCode('');
+        setBarangayCode(e.features[0].properties?.Bgy_Code);
+      });
     });
   }, []);
 
@@ -53,7 +71,13 @@ const Map: NextPage = () => {
         <div ref={searchRef} className="m-2 rounded-lg" />
         <div className="flex flex-1 flex-col justify-between">
           <Tabs tabs={tabs}>
-            <Info />
+            <Info>
+              {!barangayCode && !municipalityCode && (
+                <div className="m-auto italic text-gray-500">Select a tile</div>
+              )}
+              {municipalityCode && <MunicipalityInfo code={municipalityCode} />}
+              {barangayCode && <BarangayInfo code={barangayCode} />}
+            </Info>
             <Layers />
           </Tabs>
           <div>
