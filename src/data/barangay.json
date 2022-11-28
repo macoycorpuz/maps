@@ -1,0 +1,3416 @@
+[
+  {
+    "Bgy_Code": "PH031401001",
+    "Baranggay Name": "Banaban",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401002",
+    "Baranggay Name": "Baybay",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401003",
+    "Baranggay Name": "Binagbag",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401005",
+    "Baranggay Name": "Donacion",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401006",
+    "Baranggay Name": "Encanto",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401007",
+    "Baranggay Name": "Laog",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401008",
+    "Baranggay Name": "Marungko",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401009",
+    "Baranggay Name": "Niugan",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401010",
+    "Baranggay Name": "Paltok",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401013",
+    "Baranggay Name": "Pulong Yantok",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401014",
+    "Baranggay Name": "San Roque (Pob.)",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401015",
+    "Baranggay Name": "Santa Cruz (Pob.)",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401016",
+    "Baranggay Name": "Santa Lucia",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401017",
+    "Baranggay Name": "Santo Cristo (Pob.)",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401018",
+    "Baranggay Name": "Sulucan",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031401019",
+    "Baranggay Name": "Taboc",
+    "Mun_Code": "PH031401000",
+    "Municipality": "ANGAT"
+  },
+  {
+    "Bgy_Code": "PH031402002",
+    "Baranggay Name": "Borol 2nd",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031402003",
+    "Baranggay Name": "Borol 1st",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031402004",
+    "Baranggay Name": "Dalig",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031402005",
+    "Baranggay Name": "Longos",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031402007",
+    "Baranggay Name": "Panginay",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031402008",
+    "Baranggay Name": "Pulong Gubat",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031402009",
+    "Baranggay Name": "San Juan",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031402010",
+    "Baranggay Name": "Santol",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031402011",
+    "Baranggay Name": "Wawa (Pob.)",
+    "Mun_Code": "PH031402000",
+    "Municipality": "BALAGTAS (BIGAA)"
+  },
+  {
+    "Bgy_Code": "PH031403001",
+    "Baranggay Name": "Bagong Nayon",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403002",
+    "Baranggay Name": "Barangca",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403003",
+    "Baranggay Name": "Calantipay",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403004",
+    "Baranggay Name": "Catulinan",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403005",
+    "Baranggay Name": "Concepcion",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403006",
+    "Baranggay Name": "Hinukay",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403007",
+    "Baranggay Name": "Makinabang",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403008",
+    "Baranggay Name": "Matangtubig",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403010",
+    "Baranggay Name": "Pagala",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403011",
+    "Baranggay Name": "Paitan",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403012",
+    "Baranggay Name": "Piel",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403013",
+    "Baranggay Name": "Pinagbarilan",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403014",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403016",
+    "Baranggay Name": "Sabang",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403017",
+    "Baranggay Name": "San Jose",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403018",
+    "Baranggay Name": "San Roque",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403019",
+    "Baranggay Name": "Santa Barbara",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403020",
+    "Baranggay Name": "Santo Cristo",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403021",
+    "Baranggay Name": "Santo Ni�o",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403022",
+    "Baranggay Name": "Subic",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403023",
+    "Baranggay Name": "Sulivan",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403024",
+    "Baranggay Name": "Tangos",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403025",
+    "Baranggay Name": "Tarcan",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403026",
+    "Baranggay Name": "Tiaong",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403027",
+    "Baranggay Name": "Tibag",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403028",
+    "Baranggay Name": "Tilapayong",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031403030",
+    "Baranggay Name": "Virgen delas Flores",
+    "Mun_Code": "PH031403000",
+    "Municipality": "BALIUAG"
+  },
+  {
+    "Bgy_Code": "PH031404001",
+    "Baranggay Name": "Antipona",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404002",
+    "Baranggay Name": "Bagumbayan",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404003",
+    "Baranggay Name": "Bambang",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404004",
+    "Baranggay Name": "Batia",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404005",
+    "Baranggay Name": "Bi�ang 1st",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404006",
+    "Baranggay Name": "Bi�ang 2nd",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404007",
+    "Baranggay Name": "Bolacan",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404008",
+    "Baranggay Name": "Bundukan",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404009",
+    "Baranggay Name": "Bunlo",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404010",
+    "Baranggay Name": "Caingin",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404011",
+    "Baranggay Name": "Duhat",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404012",
+    "Baranggay Name": "Igulot",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404013",
+    "Baranggay Name": "Lolomboy",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404014",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404015",
+    "Baranggay Name": "Sulucan",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404016",
+    "Baranggay Name": "Taal",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404017",
+    "Baranggay Name": "Tambobong",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404018",
+    "Baranggay Name": "Turo",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031404019",
+    "Baranggay Name": "Wakas",
+    "Mun_Code": "PH031404000",
+    "Municipality": "BOCAUE"
+  },
+  {
+    "Bgy_Code": "PH031405001",
+    "Baranggay Name": "Bagumbayan",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405002",
+    "Baranggay Name": "Balubad",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405003",
+    "Baranggay Name": "Bambang",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405004",
+    "Baranggay Name": "Matungao",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405005",
+    "Baranggay Name": "Maysantol",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405006",
+    "Baranggay Name": "Perez",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405007",
+    "Baranggay Name": "Pitpitan",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405009",
+    "Baranggay Name": "San Francisco",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405010",
+    "Baranggay Name": "San Jose (Pob.)",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405012",
+    "Baranggay Name": "San Nicolas",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405013",
+    "Baranggay Name": "Santa Ana",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405014",
+    "Baranggay Name": "Santa Ines",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405015",
+    "Baranggay Name": "Taliptip",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031405016",
+    "Baranggay Name": "Tibig",
+    "Mun_Code": "PH031405000",
+    "Municipality": "BULAKAN"
+  },
+  {
+    "Bgy_Code": "PH031406001",
+    "Baranggay Name": "Bonga Mayor",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406002",
+    "Baranggay Name": "Bonga Menor",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406003",
+    "Baranggay Name": "Buisan",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406004",
+    "Baranggay Name": "Camachilihan",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406005",
+    "Baranggay Name": "Cambaog",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406006",
+    "Baranggay Name": "Catacte",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406007",
+    "Baranggay Name": "Liciada",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406008",
+    "Baranggay Name": "Malamig",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406009",
+    "Baranggay Name": "Malawak",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406010",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406011",
+    "Baranggay Name": "San Pedro",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406012",
+    "Baranggay Name": "Talampas",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406013",
+    "Baranggay Name": "Tanawan",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031406014",
+    "Baranggay Name": "Tibagan",
+    "Mun_Code": "PH031406000",
+    "Municipality": "BUSTOS"
+  },
+  {
+    "Bgy_Code": "PH031407001",
+    "Baranggay Name": "Balite",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407002",
+    "Baranggay Name": "Balungao",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407004",
+    "Baranggay Name": "Buguion",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407005",
+    "Baranggay Name": "Bulusan",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407006",
+    "Baranggay Name": "Calizon",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407007",
+    "Baranggay Name": "Calumpang",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407008",
+    "Baranggay Name": "Caniogan",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407009",
+    "Baranggay Name": "Corazon",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407010",
+    "Baranggay Name": "Frances",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407011",
+    "Baranggay Name": "Gatbuca",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407012",
+    "Baranggay Name": "Gugo",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407013",
+    "Baranggay Name": "Iba Este",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407014",
+    "Baranggay Name": "Iba O'Este",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407015",
+    "Baranggay Name": "Longos",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407016",
+    "Baranggay Name": "Meysulao",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407017",
+    "Baranggay Name": "Meyto",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407018",
+    "Baranggay Name": "Palimbang",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407019",
+    "Baranggay Name": "Panducot",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407020",
+    "Baranggay Name": "Pio Cruzcosa",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407021",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407022",
+    "Baranggay Name": "Pungo",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407023",
+    "Baranggay Name": "San Jose",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407024",
+    "Baranggay Name": "San Marcos",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407025",
+    "Baranggay Name": "San Miguel",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407026",
+    "Baranggay Name": "Santa Lucia",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407027",
+    "Baranggay Name": "Santo Ni�o",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407028",
+    "Baranggay Name": "Sapang Bayan",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407029",
+    "Baranggay Name": "Sergio Bayan",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031407030",
+    "Baranggay Name": "Sucol",
+    "Mun_Code": "PH031407000",
+    "Municipality": "CALUMPIT"
+  },
+  {
+    "Bgy_Code": "PH031408001",
+    "Baranggay Name": "Cutcut",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408002",
+    "Baranggay Name": "Daungan",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408003",
+    "Baranggay Name": "Ilang-Ilang",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408004",
+    "Baranggay Name": "Malis",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408005",
+    "Baranggay Name": "Panginay",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408006",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408007",
+    "Baranggay Name": "Pritil",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408008",
+    "Baranggay Name": "Pulong Gubat",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408009",
+    "Baranggay Name": "Santa Cruz",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408010",
+    "Baranggay Name": "Santa Rita",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408011",
+    "Baranggay Name": "Tabang",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408012",
+    "Baranggay Name": "Tabe",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408013",
+    "Baranggay Name": "Tiaong",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031408015",
+    "Baranggay Name": "Tuktukan",
+    "Mun_Code": "PH031408000",
+    "Municipality": "GUIGUINTO"
+  },
+  {
+    "Bgy_Code": "PH031409001",
+    "Baranggay Name": "Abulalas",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409002",
+    "Baranggay Name": "Carillo",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409003",
+    "Baranggay Name": "Iba",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409004",
+    "Baranggay Name": "Mercado",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409005",
+    "Baranggay Name": "Palapat",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409006",
+    "Baranggay Name": "Pugad",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409007",
+    "Baranggay Name": "Sagrada Familia",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409008",
+    "Baranggay Name": "San Agustin",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409009",
+    "Baranggay Name": "San Isidro",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409011",
+    "Baranggay Name": "San Jose",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409012",
+    "Baranggay Name": "San Juan",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409013",
+    "Baranggay Name": "San Miguel",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409014",
+    "Baranggay Name": "San Nicolas",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409015",
+    "Baranggay Name": "San Pablo",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409016",
+    "Baranggay Name": "San Pascual",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409017",
+    "Baranggay Name": "San Pedro",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409018",
+    "Baranggay Name": "San Roque",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409019",
+    "Baranggay Name": "San Sebastian",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409020",
+    "Baranggay Name": "Santa Cruz",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409021",
+    "Baranggay Name": "Santa Elena",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409022",
+    "Baranggay Name": "Santa Monica",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409023",
+    "Baranggay Name": "Santo Ni�o (Pob.)",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409024",
+    "Baranggay Name": "Santo Rosario",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409025",
+    "Baranggay Name": "Tampok",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409026",
+    "Baranggay Name": "Tibaguin",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031409027",
+    "Baranggay Name": "Iba-Ibayo",
+    "Mun_Code": "PH031409000",
+    "Municipality": "HAGONOY"
+  },
+  {
+    "Bgy_Code": "PH031410001",
+    "Baranggay Name": "Anilao",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410002",
+    "Baranggay Name": "Atlag",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410003",
+    "Baranggay Name": "Babatnin",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410004",
+    "Baranggay Name": "Bagna",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410005",
+    "Baranggay Name": "Bagong Bayan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410006",
+    "Baranggay Name": "Balayong",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410007",
+    "Baranggay Name": "Balite",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410008",
+    "Baranggay Name": "Bangkal",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410010",
+    "Baranggay Name": "Barihan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410012",
+    "Baranggay Name": "Bulihan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410013",
+    "Baranggay Name": "Bungahan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410014",
+    "Baranggay Name": "Dakila",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410015",
+    "Baranggay Name": "Guinhawa",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410016",
+    "Baranggay Name": "Caingin",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410017",
+    "Baranggay Name": "Calero",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410018",
+    "Baranggay Name": "Caliligawan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410019",
+    "Baranggay Name": "Canalate",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410020",
+    "Baranggay Name": "Caniogan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410021",
+    "Baranggay Name": "Catmon",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410022",
+    "Baranggay Name": "Ligas",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410023",
+    "Baranggay Name": "Liyang",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410025",
+    "Baranggay Name": "Longos",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410026",
+    "Baranggay Name": "Look 1st",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410027",
+    "Baranggay Name": "Look 2nd",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410028",
+    "Baranggay Name": "Lugam",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410029",
+    "Baranggay Name": "Mabolo",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410031",
+    "Baranggay Name": "Mambog",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410032",
+    "Baranggay Name": "Masile",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410033",
+    "Baranggay Name": "Matimbo",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410034",
+    "Baranggay Name": "Mojon",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410035",
+    "Baranggay Name": "Namayan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410036",
+    "Baranggay Name": "Niugan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410037",
+    "Baranggay Name": "Pamarawan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410038",
+    "Baranggay Name": "Panasahan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410039",
+    "Baranggay Name": "Pinagbakahan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410041",
+    "Baranggay Name": "San Agustin",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410042",
+    "Baranggay Name": "San Gabriel",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410043",
+    "Baranggay Name": "San Juan",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410044",
+    "Baranggay Name": "San Pablo",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410045",
+    "Baranggay Name": "San Vicente (Pob.)",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410046",
+    "Baranggay Name": "Santiago",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410047",
+    "Baranggay Name": "Santisima Trinidad",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410048",
+    "Baranggay Name": "Santo Cristo",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410049",
+    "Baranggay Name": "Santo Ni�o (Pob.)",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410050",
+    "Baranggay Name": "Santo Rosario (Pob.)",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410051",
+    "Baranggay Name": "Santol",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410052",
+    "Baranggay Name": "Sumapang Bata",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410053",
+    "Baranggay Name": "Sumapang Matanda",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410054",
+    "Baranggay Name": "Taal",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410055",
+    "Baranggay Name": "Tikay",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031410056",
+    "Baranggay Name": "Cofradia",
+    "Mun_Code": "PH031410000",
+    "Municipality": "CITY OF MALOLOS (Capital)"
+  },
+  {
+    "Bgy_Code": "PH031411001",
+    "Baranggay Name": "Abangan Norte",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411002",
+    "Baranggay Name": "Abangan Sur",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411003",
+    "Baranggay Name": "Ibayo",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411004",
+    "Baranggay Name": "Lambakin",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411005",
+    "Baranggay Name": "Lias",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411006",
+    "Baranggay Name": "Loma de Gato",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411007",
+    "Baranggay Name": "Nagbalon",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411008",
+    "Baranggay Name": "Patubig",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411009",
+    "Baranggay Name": "Poblacion I",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411010",
+    "Baranggay Name": "Poblacion II",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411011",
+    "Baranggay Name": "Prenza I",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411012",
+    "Baranggay Name": "Prenza II",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411013",
+    "Baranggay Name": "Santa Rosa I",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411014",
+    "Baranggay Name": "Santa Rosa II",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411015",
+    "Baranggay Name": "Saog",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031411016",
+    "Baranggay Name": "Tabing Ilog",
+    "Mun_Code": "PH031411000",
+    "Municipality": "MARILAO"
+  },
+  {
+    "Bgy_Code": "PH031412001",
+    "Baranggay Name": "Bagbaguin",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412002",
+    "Baranggay Name": "Bahay Pare",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412003",
+    "Baranggay Name": "Bancal",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412004",
+    "Baranggay Name": "Banga",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412005",
+    "Baranggay Name": "Bayugo",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412006",
+    "Baranggay Name": "Calvario",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412007",
+    "Baranggay Name": "Camalig",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412008",
+    "Baranggay Name": "Hulo",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412009",
+    "Baranggay Name": "Iba",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412010",
+    "Baranggay Name": "Langka",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412011",
+    "Baranggay Name": "Lawa",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412012",
+    "Baranggay Name": "Libtong",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412013",
+    "Baranggay Name": "Liputan",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412014",
+    "Baranggay Name": "Longos",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412015",
+    "Baranggay Name": "Malhacan",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412016",
+    "Baranggay Name": "Pajo",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412017",
+    "Baranggay Name": "Pandayan",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412018",
+    "Baranggay Name": "Pantoc",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412019",
+    "Baranggay Name": "Perez",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412020",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412021",
+    "Baranggay Name": "Saluysoy",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412022",
+    "Baranggay Name": "Saint Francis (Gasak)",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412023",
+    "Baranggay Name": "Tugatog",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412024",
+    "Baranggay Name": "Ubihan",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412025",
+    "Baranggay Name": "Zamora",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031412026",
+    "Baranggay Name": "Caingin",
+    "Mun_Code": "PH031412000",
+    "Municipality": "CITY OF MEYCAUAYAN"
+  },
+  {
+    "Bgy_Code": "PH031413003",
+    "Baranggay Name": "Bangkal",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413004",
+    "Baranggay Name": "Baraka",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413006",
+    "Baranggay Name": "Bigte",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413007",
+    "Baranggay Name": "Bitungol",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413015",
+    "Baranggay Name": "Matictic",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413016",
+    "Baranggay Name": "Minuyan",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413020",
+    "Baranggay Name": "Partida",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413021",
+    "Baranggay Name": "Pinagtulayan",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413022",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413024",
+    "Baranggay Name": "San Mateo",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413031",
+    "Baranggay Name": "Tigbe",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413032",
+    "Baranggay Name": "San Lorenzo",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031413033",
+    "Baranggay Name": "Friendship Village Resources (FVR)",
+    "Mun_Code": "PH031413000",
+    "Municipality": "NORZAGARAY"
+  },
+  {
+    "Bgy_Code": "PH031414001",
+    "Baranggay Name": "Binuangan",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414002",
+    "Baranggay Name": "Catanghalan",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414003",
+    "Baranggay Name": "Hulo",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414004",
+    "Baranggay Name": "Lawa",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414005",
+    "Baranggay Name": "Salambao",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414006",
+    "Baranggay Name": "Paco",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414007",
+    "Baranggay Name": "Pag-asa (Pob.)",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414008",
+    "Baranggay Name": "Paliwas",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414009",
+    "Baranggay Name": "Panghulo",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414010",
+    "Baranggay Name": "San Pascual",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031414011",
+    "Baranggay Name": "Tawiran",
+    "Mun_Code": "PH031414000",
+    "Municipality": "OBANDO"
+  },
+  {
+    "Bgy_Code": "PH031415001",
+    "Baranggay Name": "Bagbaguin",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415002",
+    "Baranggay Name": "Bagong Barrio",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415003",
+    "Baranggay Name": "Bunsuran III",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415004",
+    "Baranggay Name": "Bunsuran I",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415005",
+    "Baranggay Name": "Bunsuran II",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415006",
+    "Baranggay Name": "Cacarong Bata",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415007",
+    "Baranggay Name": "Cacarong Matanda",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415008",
+    "Baranggay Name": "Cupang",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415009",
+    "Baranggay Name": "Malibong Bata",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415010",
+    "Baranggay Name": "Malibong Matanda",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415011",
+    "Baranggay Name": "Manatal",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415012",
+    "Baranggay Name": "Mapulang Lupa",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415013",
+    "Baranggay Name": "Masagana",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415014",
+    "Baranggay Name": "Masuso",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415015",
+    "Baranggay Name": "Pinagkuartelan",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415016",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415017",
+    "Baranggay Name": "Real de Cacarong",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415018",
+    "Baranggay Name": "San Roque",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415019",
+    "Baranggay Name": "Siling Bata",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415020",
+    "Baranggay Name": "Siling Matanda",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415021",
+    "Baranggay Name": "Baka-bakahan",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031415022",
+    "Baranggay Name": "Santo Ni�o",
+    "Mun_Code": "PH031415000",
+    "Municipality": "PANDI"
+  },
+  {
+    "Bgy_Code": "PH031416001",
+    "Baranggay Name": "Binakod",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416002",
+    "Baranggay Name": "Kapitangan",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416003",
+    "Baranggay Name": "Malumot",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416004",
+    "Baranggay Name": "Masukol",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416006",
+    "Baranggay Name": "Pinalagdan",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416007",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416009",
+    "Baranggay Name": "San Isidro I",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416010",
+    "Baranggay Name": "San Isidro II",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416011",
+    "Baranggay Name": "San Jose",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416012",
+    "Baranggay Name": "San Roque",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416013",
+    "Baranggay Name": "San Vicente",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416014",
+    "Baranggay Name": "Santa Cruz",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416015",
+    "Baranggay Name": "Santo Ni�o",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031416016",
+    "Baranggay Name": "Santo Rosario",
+    "Mun_Code": "PH031416000",
+    "Municipality": "PAOMBONG"
+  },
+  {
+    "Bgy_Code": "PH031417001",
+    "Baranggay Name": "Agnaya",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417002",
+    "Baranggay Name": "Bagong Silang",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417003",
+    "Baranggay Name": "Banga I",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417004",
+    "Baranggay Name": "Banga II",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417005",
+    "Baranggay Name": "Bintog",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417006",
+    "Baranggay Name": "Bulihan",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417007",
+    "Baranggay Name": "Culianin",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417008",
+    "Baranggay Name": "Dampol",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417010",
+    "Baranggay Name": "Lagundi",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417011",
+    "Baranggay Name": "Lalangan",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417012",
+    "Baranggay Name": "Lumang Bayan",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417014",
+    "Baranggay Name": "Parulan",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417015",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417016",
+    "Baranggay Name": "Rueda",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417017",
+    "Baranggay Name": "San Jose",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417018",
+    "Baranggay Name": "Santa Ines",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417019",
+    "Baranggay Name": "Santo Ni�o",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417020",
+    "Baranggay Name": "Sipat",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031417021",
+    "Baranggay Name": "Tabang",
+    "Mun_Code": "PH031417000",
+    "Municipality": "PLARIDEL"
+  },
+  {
+    "Bgy_Code": "PH031418001",
+    "Baranggay Name": "Balatong A",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418002",
+    "Baranggay Name": "Balatong B",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418003",
+    "Baranggay Name": "Cutcot",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418005",
+    "Baranggay Name": "Dampol I",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418006",
+    "Baranggay Name": "Dampol II-A",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418007",
+    "Baranggay Name": "Dampol II-B",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418008",
+    "Baranggay Name": "Dulong Malabon",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418009",
+    "Baranggay Name": "Inaon",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418010",
+    "Baranggay Name": "Longos",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418011",
+    "Baranggay Name": "Lumbac",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418018",
+    "Baranggay Name": "Paltao",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418020",
+    "Baranggay Name": "Penabatan",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418022",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418025",
+    "Baranggay Name": "Santa Peregrina",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418026",
+    "Baranggay Name": "Santo Cristo",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418033",
+    "Baranggay Name": "Taal",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418034",
+    "Baranggay Name": "Tabon",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418035",
+    "Baranggay Name": "Tibag",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031418037",
+    "Baranggay Name": "Tinejero",
+    "Mun_Code": "PH031418000",
+    "Municipality": "PULILAN"
+  },
+  {
+    "Bgy_Code": "PH031419001",
+    "Baranggay Name": "Akle",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419002",
+    "Baranggay Name": "Alagao",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419003",
+    "Baranggay Name": "Anyatam",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419006",
+    "Baranggay Name": "Bagong Barrio",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419007",
+    "Baranggay Name": "Basuit",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419008",
+    "Baranggay Name": "Bubulong Munti",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419009",
+    "Baranggay Name": "Bubulong Malaki",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419010",
+    "Baranggay Name": "Buhol na Mangga",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419011",
+    "Baranggay Name": "Bulusukan",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419012",
+    "Baranggay Name": "Calasag",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419013",
+    "Baranggay Name": "Calawitan",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419014",
+    "Baranggay Name": "Casalat",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419015",
+    "Baranggay Name": "Gabihan",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419016",
+    "Baranggay Name": "Garlang",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419017",
+    "Baranggay Name": "Lapnit",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419018",
+    "Baranggay Name": "Maasim",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419019",
+    "Baranggay Name": "Makapilapil",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419020",
+    "Baranggay Name": "Malipampang",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419021",
+    "Baranggay Name": "Matimbubong",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419022",
+    "Baranggay Name": "Nabaong Garlang",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419023",
+    "Baranggay Name": "Palapala",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419024",
+    "Baranggay Name": "Pasong Bangkal",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419025",
+    "Baranggay Name": "Pinaod",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419026",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419027",
+    "Baranggay Name": "Pulong Tamo",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419028",
+    "Baranggay Name": "San Juan",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419029",
+    "Baranggay Name": "Santa Catalina Bata",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419030",
+    "Baranggay Name": "Santa Catalina Matanda",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419031",
+    "Baranggay Name": "Sapang Dayap",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419032",
+    "Baranggay Name": "Sapang Putik",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419033",
+    "Baranggay Name": "Sapang Putol",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419034",
+    "Baranggay Name": "Sumandig",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419035",
+    "Baranggay Name": "Telepatio",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419036",
+    "Baranggay Name": "Upig",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419037",
+    "Baranggay Name": "Umpucan",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031419038",
+    "Baranggay Name": "Mataas na Parang",
+    "Mun_Code": "PH031419000",
+    "Municipality": "SAN ILDEFONSO"
+  },
+  {
+    "Bgy_Code": "PH031420001",
+    "Baranggay Name": "Bagong Buhay",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420002",
+    "Baranggay Name": "Dulong Bayan",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420003",
+    "Baranggay Name": "Gaya-gaya",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420004",
+    "Baranggay Name": "Kaypian",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420005",
+    "Baranggay Name": "Kaybanban",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420006",
+    "Baranggay Name": "Minuyan",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420007",
+    "Baranggay Name": "Muzon",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420008",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420009",
+    "Baranggay Name": "Santo Cristo",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420010",
+    "Baranggay Name": "Sapang Palay",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420011",
+    "Baranggay Name": "Tungkong Mangga",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420012",
+    "Baranggay Name": "Citrus",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420013",
+    "Baranggay Name": "San Martin",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420014",
+    "Baranggay Name": "Santa Cruz",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420015",
+    "Baranggay Name": "Fatima",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420016",
+    "Baranggay Name": "San Pedro",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420017",
+    "Baranggay Name": "San Rafael",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420018",
+    "Baranggay Name": "Santo Ni�o",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420019",
+    "Baranggay Name": "Assumption",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420020",
+    "Baranggay Name": "Bagong Buhay II",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420021",
+    "Baranggay Name": "Bagong Buhay III",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420022",
+    "Baranggay Name": "Ciudad Real",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420023",
+    "Baranggay Name": "Fatima II",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420024",
+    "Baranggay Name": "Fatima III",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420025",
+    "Baranggay Name": "Fatima IV",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420026",
+    "Baranggay Name": "Fatima V",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420027",
+    "Baranggay Name": "Francisco Homes-Guijo",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420028",
+    "Baranggay Name": "Francisco Homes-Mulawin",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420029",
+    "Baranggay Name": "Francisco Homes-Narra",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420030",
+    "Baranggay Name": "Francisco Homes-Yakal",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420031",
+    "Baranggay Name": "Graceville",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420032",
+    "Baranggay Name": "Gumaoc Central",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420033",
+    "Baranggay Name": "Gumaoc East",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420034",
+    "Baranggay Name": "Gumaoc West",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420035",
+    "Baranggay Name": "Lawang Pari",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420036",
+    "Baranggay Name": "Maharlika",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420037",
+    "Baranggay Name": "Minuyan II",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420038",
+    "Baranggay Name": "Minuyan III",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420039",
+    "Baranggay Name": "Minuyan IV",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420040",
+    "Baranggay Name": "Minuyan V",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420041",
+    "Baranggay Name": "Minuyan Proper",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420042",
+    "Baranggay Name": "Paradise III",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420043",
+    "Baranggay Name": "Poblacion I",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420044",
+    "Baranggay Name": "San Isidro",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420045",
+    "Baranggay Name": "San Manuel",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420046",
+    "Baranggay Name": "San Martin II",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420047",
+    "Baranggay Name": "San Martin III",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420048",
+    "Baranggay Name": "San Martin IV",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420049",
+    "Baranggay Name": "San Rafael I",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420050",
+    "Baranggay Name": "San Rafael III",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420051",
+    "Baranggay Name": "San Rafael IV",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420052",
+    "Baranggay Name": "San Rafael V",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420053",
+    "Baranggay Name": "San Roque",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420054",
+    "Baranggay Name": "Santa Cruz II",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420055",
+    "Baranggay Name": "Santa Cruz III",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420056",
+    "Baranggay Name": "Santa Cruz IV",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420057",
+    "Baranggay Name": "Santa Cruz V",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420058",
+    "Baranggay Name": "Santo Ni�o II",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031420059",
+    "Baranggay Name": "St. Martin de Porres",
+    "Mun_Code": "PH031420000",
+    "Municipality": "CITY OF SAN JOSE DEL MONTE"
+  },
+  {
+    "Bgy_Code": "PH031421001",
+    "Baranggay Name": "Bagong Silang",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421002",
+    "Baranggay Name": "Balaong",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421003",
+    "Baranggay Name": "Balite",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421004",
+    "Baranggay Name": "Bantog",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421006",
+    "Baranggay Name": "Bardias",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421007",
+    "Baranggay Name": "Baritan",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421008",
+    "Baranggay Name": "Batasan Bata",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421009",
+    "Baranggay Name": "Batasan Matanda",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421011",
+    "Baranggay Name": "Biak-na-Bato",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421012",
+    "Baranggay Name": "Biclat",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421013",
+    "Baranggay Name": "Buga",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421014",
+    "Baranggay Name": "Buliran",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421015",
+    "Baranggay Name": "Bulualto",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421016",
+    "Baranggay Name": "Calumpang",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421019",
+    "Baranggay Name": "Cambio",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421020",
+    "Baranggay Name": "Camias",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421021",
+    "Baranggay Name": "Ilog-Bulo",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421023",
+    "Baranggay Name": "King Kabayo",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421024",
+    "Baranggay Name": "Labne",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421025",
+    "Baranggay Name": "Lambakin",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421027",
+    "Baranggay Name": "Magmarale",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421028",
+    "Baranggay Name": "Malibay",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421030",
+    "Baranggay Name": "Mandile",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421031",
+    "Baranggay Name": "Masalipit",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421032",
+    "Baranggay Name": "Pacalag",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421033",
+    "Baranggay Name": "Paliwasan",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421035",
+    "Baranggay Name": "Partida",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421036",
+    "Baranggay Name": "Pinambaran",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421037",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421038",
+    "Baranggay Name": "Pulong Bayabas",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421039",
+    "Baranggay Name": "Sacdalan",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421040",
+    "Baranggay Name": "Salacot",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421041",
+    "Baranggay Name": "Salangan",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421043",
+    "Baranggay Name": "San Agustin",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421044",
+    "Baranggay Name": "San Jose",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421045",
+    "Baranggay Name": "San Juan",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421046",
+    "Baranggay Name": "San Vicente",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421047",
+    "Baranggay Name": "Santa Ines",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421048",
+    "Baranggay Name": "Santa Lucia",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421049",
+    "Baranggay Name": "Santa Rita Bata",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421050",
+    "Baranggay Name": "Santa Rita Matanda",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421051",
+    "Baranggay Name": "Sapang",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421052",
+    "Baranggay Name": "Sibul",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421054",
+    "Baranggay Name": "Tartaro",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421055",
+    "Baranggay Name": "Tibagan",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421056",
+    "Baranggay Name": "Bagong Pag-asa",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421057",
+    "Baranggay Name": "Pulong Duhat",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421058",
+    "Baranggay Name": "Maligaya",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031421059",
+    "Baranggay Name": "Tigpalas",
+    "Mun_Code": "PH031421000",
+    "Municipality": "SAN MIGUEL"
+  },
+  {
+    "Bgy_Code": "PH031422001",
+    "Baranggay Name": "BMA-Balagtas",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422002",
+    "Baranggay Name": "Banca-banca",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422003",
+    "Baranggay Name": "Caingin",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422004",
+    "Baranggay Name": "Coral na Bato",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422005",
+    "Baranggay Name": "Cruz na Daan",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422006",
+    "Baranggay Name": "Dagat-dagatan",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422007",
+    "Baranggay Name": "Diliman I",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422008",
+    "Baranggay Name": "Diliman II",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422009",
+    "Baranggay Name": "Capihan",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422010",
+    "Baranggay Name": "Libis",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422011",
+    "Baranggay Name": "Lico",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422012",
+    "Baranggay Name": "Maasim",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422013",
+    "Baranggay Name": "Mabalas-balas",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422014",
+    "Baranggay Name": "Maguinao",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422015",
+    "Baranggay Name": "Maronguillo",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422016",
+    "Baranggay Name": "Paco",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422017",
+    "Baranggay Name": "Pansumaloc",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422018",
+    "Baranggay Name": "Pantubig",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422019",
+    "Baranggay Name": "Pasong Bangkal",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422020",
+    "Baranggay Name": "Pasong Callos",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422021",
+    "Baranggay Name": "Pasong Intsik",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422022",
+    "Baranggay Name": "Pinacpinacan",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422023",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422024",
+    "Baranggay Name": "Pulo",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422025",
+    "Baranggay Name": "Pulong Bayabas",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422026",
+    "Baranggay Name": "Salapungan",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422027",
+    "Baranggay Name": "Sampaloc",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422028",
+    "Baranggay Name": "San Agustin",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422030",
+    "Baranggay Name": "San Roque",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422031",
+    "Baranggay Name": "Talacsan",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422032",
+    "Baranggay Name": "Tambubong",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422033",
+    "Baranggay Name": "Tukod",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422034",
+    "Baranggay Name": "Ulingao",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031422035",
+    "Baranggay Name": "Sapang Pahalang",
+    "Mun_Code": "PH031422000",
+    "Municipality": "SAN RAFAEL"
+  },
+  {
+    "Bgy_Code": "PH031423001",
+    "Baranggay Name": "Bagbaguin",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423002",
+    "Baranggay Name": "Balasing",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423003",
+    "Baranggay Name": "Buenavista",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423004",
+    "Baranggay Name": "Bulac",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423005",
+    "Baranggay Name": "Camangyanan",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423006",
+    "Baranggay Name": "Catmon",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423007",
+    "Baranggay Name": "Cay Pombo",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423008",
+    "Baranggay Name": "Caysio",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423009",
+    "Baranggay Name": "Guyong",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423010",
+    "Baranggay Name": "Lalakhan",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423011",
+    "Baranggay Name": "Mag-asawang Sapa",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423013",
+    "Baranggay Name": "Mahabang Parang",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423014",
+    "Baranggay Name": "Manggahan",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423015",
+    "Baranggay Name": "Parada",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423016",
+    "Baranggay Name": "Poblacion",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423017",
+    "Baranggay Name": "Pulong Buhangin",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423018",
+    "Baranggay Name": "San Gabriel",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423019",
+    "Baranggay Name": "San Jose Patag",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423020",
+    "Baranggay Name": "San Vicente",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423021",
+    "Baranggay Name": "Santa Clara",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423022",
+    "Baranggay Name": "Santa Cruz",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423023",
+    "Baranggay Name": "Silangan",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423024",
+    "Baranggay Name": "Tabing Bakod",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031423025",
+    "Baranggay Name": "Tumana",
+    "Mun_Code": "PH031423000",
+    "Municipality": "SANTA MARIA"
+  },
+  {
+    "Bgy_Code": "PH031424001",
+    "Baranggay Name": "Bayabas",
+    "Mun_Code": "PH031424000",
+    "Municipality": "DOÑA REMEDIOS TRINIDAD"
+  },
+  {
+    "Bgy_Code": "PH031424002",
+    "Baranggay Name": "Kabayunan",
+    "Mun_Code": "PH031424000",
+    "Municipality": "DOÑA REMEDIOS TRINIDAD"
+  },
+  {
+    "Bgy_Code": "PH031424003",
+    "Baranggay Name": "Camachin",
+    "Mun_Code": "PH031424000",
+    "Municipality": "DOÑA REMEDIOS TRINIDAD"
+  },
+  {
+    "Bgy_Code": "PH031424004",
+    "Baranggay Name": "Camachile",
+    "Mun_Code": "PH031424000",
+    "Municipality": "DOÑA REMEDIOS TRINIDAD"
+  },
+  {
+    "Bgy_Code": "PH031424005",
+    "Baranggay Name": "Kalawakan",
+    "Mun_Code": "PH031424000",
+    "Municipality": "DOÑA REMEDIOS TRINIDAD"
+  },
+  {
+    "Bgy_Code": "PH031424006",
+    "Baranggay Name": "Pulong Sampalok",
+    "Mun_Code": "PH031424000",
+    "Municipality": "DOÑA REMEDIOS TRINIDAD"
+  },
+  {
+    "Bgy_Code": "PH031424007",
+    "Baranggay Name": "Talbak",
+    "Mun_Code": "PH031424000",
+    "Municipality": "DOÑA REMEDIOS TRINIDAD"
+  },
+  {
+    "Bgy_Code": "PH031424008",
+    "Baranggay Name": "Sapang Bulak",
+    "Mun_Code": "PH031424000",
+    "Municipality": "DOÑA REMEDIOS TRINIDAD"
+  }
+]
