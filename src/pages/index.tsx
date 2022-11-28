@@ -67,7 +67,7 @@ const Map: NextPage = () => {
       const defaults = localStorage.getItem('layer-settings');
       if (defaults) {
         Object.entries(JSON.parse(defaults)).forEach(s =>
-          setVisibility(map.current, s[0], s[1] as boolean)
+          setVisibility(s[0], s[1] as boolean, map.current)
         );
       }
     });

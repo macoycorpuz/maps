@@ -35,7 +35,7 @@ export const initSearchBox = () => {
   return geocoder;
 };
 
-export const setVisibility = (map?: Map, id: string, isVisible: boolean) => {
+export const setVisibility = (id: string, isVisible: boolean, map?: Map) => {
   if (!map) return;
   const visibility = isVisible ? 'visible' : 'none';
   map.setLayoutProperty(id, 'visibility', visibility);

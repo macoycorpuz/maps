@@ -53,7 +53,7 @@ const Layers: React.FC<Props> = ({ map }) => {
 
   const onChange = (layer: any, isVisible: any) => {
     setSettings(prev => ({ ...prev, [layer]: isVisible }));
-    setVisibility(map, layer, isVisible);
+    setVisibility(layer, isVisible, map);
   };
 
   return (
