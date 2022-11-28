@@ -19,7 +19,7 @@ import {
   sourceLayerBarangay,
   sourceLayerMunicipality,
 } from '../mapbox/layers';
-import { initMap, initSearchBox } from '../mapbox/map';
+import { initMap, initSearchBox, setVisibility } from '../mapbox/map';
 
 const tabs = ['Info', 'Layers'];
 
@@ -32,6 +32,7 @@ const Map: NextPage = () => {
 
   const [municipalityCode, setMunicipalityCode] = useState('');
   const [barangayCode, setBarangayCode] = useState('');
+  const [idleMap, setIdleMap] = useState<mapboxgl.Map>();
 
   useEffect(() => {
     if (map.current || !mapRef?.current) return;
@@ -62,7 +63,16 @@ const Map: NextPage = () => {
         setMunicipalityCode('');
         setBarangayCode(e.features[0].properties?.Bgy_Code);
       });
+
+      const defaults = localStorage.getItem('layer-settings');
+      if (defaults) {
+        Object.entries(JSON.parse(defaults)).forEach(s =>
+          setVisibility(map.current, s[0], s[1] as boolean)
+        );
+      }
     });
+
+    map.current.on('idle', () => setIdleMap(map.current));
   }, []);
 
   return (
@@ -75,10 +85,10 @@ const Map: NextPage = () => {
               {!barangayCode && !municipalityCode && (
                 <div className="m-auto italic text-gray-500">Select a tile</div>
               )}
-              {municipalityCode && <MunicipalityInfo code={municipalityCode} />}
-              {barangayCode && <BarangayInfo code={barangayCode} />}
+              <MunicipalityInfo code={municipalityCode} />
+              <BarangayInfo code={barangayCode} />
             </Info>
-            <Layers />
+            <Layers map={idleMap} />
           </Tabs>
           <div>
             <Weather />

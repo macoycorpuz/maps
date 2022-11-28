@@ -9,6 +9,9 @@ interface Props {
 
 const BarangayInfo: React.FC<Props> = ({ code }) => {
   const data = useMemo(() => barangay.find(m => m.Bgy_Code === code), [code]);
+
+  if (!code) return null;
+
   return (
     <div id="barangay-info" className="flex flex-col space-y-2 text-sm">
       <h1 className="text-xl font-extrabold">{data?.['Baranggay Name']}</h1>

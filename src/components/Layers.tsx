@@ -4,7 +4,10 @@ import {
   HomeIcon,
   MapPinIcon,
 } from '@heroicons/react/24/solid';
-import { useState } from 'react';
+import mapboxgl from 'mapbox-gl';
+import { useLocalStorage } from '../hooks/useLocalStorage/useLocalStorage';
+import { setVisibility } from '../mapbox/map';
+import Loader from './Loader';
 import Toggle from './Toggle';
 
 const layers = [
@@ -17,24 +20,40 @@ const layers = [
   {
     id: 'municipality-boundaries',
     icon: <BuildingLibraryIcon className="mr-2 h-5 w-5" />,
-    label: 'Municipality',
+    label: 'Municipality Boundaries',
     default: true,
   },
   {
     id: 'barangay-boundaries',
     icon: <HomeIcon className="mr-2 h-5 w-5" />,
-    label: 'Barangay',
+    label: 'Barangay Boundaries',
     default: true,
   },
 ];
 
-const Layers: React.FC = () => {
-  const [settings, setSettings] = useState<{ [k: string]: boolean }>(
+interface Props {
+  map?: mapboxgl.Map;
+}
+
+type Settings = { [k: string]: boolean };
+
+const Layers: React.FC<Props> = ({ map }) => {
+  const [settings, setSettings] = useLocalStorage<Settings>(
+    'layer-settings',
     Object.fromEntries(layers.map(l => [l.id, l.default]))
   );
 
-  const onChange = (layer: string, isVisible: boolean) => {
+  if (!map) {
+    return (
+      <div className="flex w-full justify-center py-4">
+        <Loader classNames="h-12 w-12 border-4" />
+      </div>
+    );
+  }
+
+  const onChange = (layer: any, isVisible: any) => {
     setSettings(prev => ({ ...prev, [layer]: isVisible }));
+    setVisibility(map, layer, isVisible);
   };
 
   return (

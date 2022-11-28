@@ -10,7 +10,9 @@ export const fillLayerMunicipality: mapboxgl.AnyLayer = {
   minzoom: 9.3,
   maxzoom: 12,
   filter: ['match', ['get', 'ADM2_EN'], ['Bulacan'], true, false],
-  layout: {},
+  layout: {
+    visibility: 'visible',
+  },
   paint: {
     'fill-color': 'hsl(216, 94%, 55%)',
     'fill-opacity': [
@@ -32,7 +34,9 @@ export const fillLayerBarangay: mapboxgl.AnyLayer = {
   minzoom: 12,
   maxzoom: 16,
   filter: ['match', ['get', 'Pro_Name'], ['BULACAN'], true, false],
-  layout: {},
+  layout: {
+    visibility: 'visible',
+  },
   paint: {
     'fill-color': 'hsl(42, 100%, 85%)',
     'fill-opacity': [

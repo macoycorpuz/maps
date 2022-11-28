@@ -29,7 +29,14 @@ const Tabs: React.FC<Props> = ({ tabs, children }) => {
           ))}
         </ul>
       </nav>
-      {children[selected]}
+      {children.map((child, i) => (
+        <div
+          key={i}
+          className={classNames('h-full', i !== selected && 'hidden')}
+        >
+          {child}
+        </div>
+      ))}
     </div>
   );
 };
