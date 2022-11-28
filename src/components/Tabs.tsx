@@ -10,7 +10,7 @@ const Tabs: React.FC<Props> = ({ tabs, children }) => {
   const [selected, setSelected] = useState(0);
 
   return (
-    <div className="flex flex-col">
+    <div className="flex h-full flex-col">
       <nav className="border-b border-gray-200">
         <ul className="flex space-x-4 px-2">
           {tabs.map((tab, i) => (
