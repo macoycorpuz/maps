@@ -16,13 +16,10 @@ interface Props {
 
 const Info: React.FC<Props> = ({ children }) => {
   return (
-    <div className="flex h-full flex-col justify-between space-y-3 px-2 py-4">
+    <div className="flex h-full flex-col justify-between p-2">
       {children}
-      <div
-        id="general-info"
-        className="flex flex-col space-y-2 border-t-2 py-2 text-sm"
-      >
-        <h1 className="text-lg font-extrabold">{general['Province Name']}</h1>
+      <div className="flex flex-col space-y-1 border-t-2 pt-2 text-xs">
+        <h1 className="text-base font-extrabold">{general['Province Name']}</h1>
         <InfoSpan>
           <CodeBracketSquareIcon className="mr-2 h-5 w-5" />
           Province Code: {general.Pro_Code}

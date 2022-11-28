@@ -1,26 +1,16 @@
 import { XMarkIcon } from '@heroicons/react/24/solid';
-import { QueryFunction, useQuery } from '@tanstack/react-query';
 import moment from 'moment';
 import Image from 'next/image';
 import { useState } from 'react';
+import useWeather from '../hooks/useWeather/useWeather';
 import Loader from './Loader';
 
-const fetchWeather: QueryFunction<any, any> = async ({ queryKey }) => {
-  const params = Object.entries(queryKey[1])
-    .map(([key, value]) => `&${key}=${value}`)
-    .join('');
-  const domain = 'https://api.openweathermap.org';
-  const apiKey = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
-  const url = `${domain}/data/3.0/onecall?units=metric&appid=${apiKey}${params}`;
-  const weather = await fetch(url).then(r => r.json());
-  return weather;
-};
-
 const Weather: React.FC = () => {
-  const options = { refetchInterval: 3600000 };
-  const keys = ['weather', { lat: 14.843759, lon: 120.8113694 }];
   const [open, setOpen] = useState(false);
-  const { data, isLoading, error } = useQuery(keys, fetchWeather, options);
+  const { data, isLoading, error } = useWeather('weather', {
+    lat: 14.843759,
+    lon: 120.8113694,
+  });
 
   if (isLoading) {
     return (
