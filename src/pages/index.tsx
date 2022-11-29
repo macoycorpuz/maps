@@ -3,12 +3,14 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import type { NextPage } from 'next';
 import { useEffect, useRef, useState } from 'react';
+import Alerts from '../components/Alerts';
+import Layers from '../components/Controls';
 import Footer from '../components/Footer';
 import BarangayInfo from '../components/info/BarangayInfo';
 import Info from '../components/info/Info';
 import MunicipalityInfo from '../components/info/MunicipalityInfo';
-import Layers from '../components/Layers';
 import Sidebar from '../components/Sidebar';
+import Studio from '../components/Studio';
 import Tabs from '../components/Tabs';
 import Weather from '../components/Weather';
 import { useAuth } from '../hooks/useAuth/useAuth';
@@ -21,7 +23,7 @@ import {
 } from '../mapbox/layers';
 import { initMap, initSearchBox, setVisibility } from '../mapbox/map';
 
-const tabs = ['Info', 'Layers'];
+const tabs = ['Info', 'Controls', 'Alerts', 'Studio'];
 
 const Map: NextPage = () => {
   const { user, logout } = useAuth();
@@ -89,6 +91,8 @@ const Map: NextPage = () => {
               <BarangayInfo code={barangayCode} />
             </Info>
             <Layers map={idleMap} />
+            <Alerts />
+            <Studio />
           </Tabs>
           <div>
             <Weather />
