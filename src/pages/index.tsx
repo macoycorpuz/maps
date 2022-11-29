@@ -1,11 +1,11 @@
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
-import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import type { NextPage } from 'next';
-import { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 import Alerts from '../components/Alerts';
 import Layers from '../components/Controls';
 import Footer from '../components/Footer';
+import Forecast from '../components/Forecast';
 import BarangayInfo from '../components/info/BarangayInfo';
 import Info from '../components/info/Info';
 import MunicipalityInfo from '../components/info/MunicipalityInfo';
@@ -14,68 +14,21 @@ import Studio from '../components/Studio';
 import Tabs from '../components/Tabs';
 import Weather from '../components/Weather';
 import { useAuth } from '../hooks/useAuth/useAuth';
-import { hover } from '../mapbox/hover';
-import {
-  fillLayerBarangay,
-  fillLayerMunicipality,
-  sourceLayerBarangay,
-  sourceLayerMunicipality,
-} from '../mapbox/layers';
-import { initMap, initSearchBox, setVisibility } from '../mapbox/map';
+import useMap from '../hooks/useMap/useMap';
+import useWeather from '../hooks/useWeather/useWeather';
 
 const tabs = ['Info', 'Controls', 'Alerts', 'Studio'];
 
 const Map: NextPage = () => {
+  const [isForecastOpen, setIsForecastOpen] = useState(false);
   const { user, logout } = useAuth();
+  const { mapRef, searchRef, municipalityCode, barangayCode, idleMap } =
+    useMap();
 
-  const map = useRef<mapboxgl.Map>();
-  const mapRef = useRef<HTMLDivElement>(null);
-  const searchRef = useRef<HTMLDivElement>(null);
-
-  const [municipalityCode, setMunicipalityCode] = useState('');
-  const [barangayCode, setBarangayCode] = useState('');
-  const [idleMap, setIdleMap] = useState<mapboxgl.Map>();
-
-  useEffect(() => {
-    if (map.current || !mapRef?.current) return;
-    map.current = initMap({ container: mapRef.current });
-
-    if (searchRef.current) {
-      const geocoder = initSearchBox();
-      searchRef.current?.appendChild(geocoder.onAdd(map.current));
-    }
-
-    map.current.on('load', () => {
-      if (!map.current) return;
-
-      map.current.addLayer(fillLayerMunicipality);
-      hover(map.current, fillLayerMunicipality, sourceLayerMunicipality);
-
-      map.current.addLayer(fillLayerBarangay);
-      hover(map.current, fillLayerBarangay, sourceLayerBarangay);
-
-      map.current.on('click', fillLayerMunicipality.id, e => {
-        if (!e.features || !e.features.length) return;
-        setBarangayCode('');
-        setMunicipalityCode(e.features[0].properties?.ADM3_PCODE);
-      });
-
-      map.current.on('click', fillLayerBarangay.id, e => {
-        if (!e.features || !e.features.length) return;
-        setMunicipalityCode('');
-        setBarangayCode(e.features[0].properties?.Bgy_Code);
-      });
-
-      const defaults = localStorage.getItem('layer-settings');
-      if (defaults) {
-        Object.entries(JSON.parse(defaults)).forEach(s =>
-          setVisibility(s[0], s[1] as boolean, map.current)
-        );
-      }
-    });
-
-    map.current.on('idle', () => setIdleMap(map.current));
-  }, []);
+  const { data, isLoading, error } = useWeather('weather', {
+    lat: 14.843759,
+    lon: 120.8113694,
+  });
 
   return (
     <>
@@ -95,13 +48,21 @@ const Map: NextPage = () => {
             <Studio />
           </Tabs>
           <div>
-            <Weather />
+            <Weather
+              data={data}
+              isLoading={isLoading}
+              error={error}
+              onClick={() => setIsForecastOpen(true)}
+            />
             <Footer name={user?.attributes.name} logout={logout} />
           </div>
         </div>
       </Sidebar>
 
       <div ref={mapRef} className="fixed h-screen w-screen" />
+      {isForecastOpen && (
+        <Forecast data={data} onClose={() => setIsForecastOpen(false)} />
+      )}
     </>
   );
 };

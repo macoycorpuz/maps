@@ -6,7 +6,7 @@ import {
 } from '@heroicons/react/24/solid';
 import mapboxgl from 'mapbox-gl';
 import { useLocalStorage } from '../hooks/useLocalStorage/useLocalStorage';
-import { setVisibility } from '../mapbox/map';
+import { setVisibility } from '../hooks/useMap/map';
 import Loader from './Loader';
 import Toggle from './Toggle';
 

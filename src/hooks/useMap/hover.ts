@@ -1,6 +1,6 @@
 import { AnyLayer, EventData, Map } from 'mapbox-gl';
 
-export const hover = (map: Map, layer: AnyLayer, sourceLayer: string) => {
+export const onHover = (map: Map, layer: AnyLayer, sourceLayer: string) => {
   let hoveredStateId: any = null;
 
   const onMouseMove = (e: EventData) => {
