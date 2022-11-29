@@ -31,6 +31,14 @@ export const initSearchBox = () => {
   const geocoder = new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
     mapboxgl: mapboxgl,
+    countries: 'PH',
+    trackProximity: true,
+    proximity: {
+      latitude: 14.9828,
+      longitude: 121.0736,
+    },
+    bbox: [119.5, 13.5, 122.5, 16.5],
+    limit: 10,
   });
   return geocoder;
 };
