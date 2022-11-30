@@ -37,7 +37,7 @@ interface Props {
 
 type Settings = { [k: string]: boolean };
 
-const Layers: React.FC<Props> = ({ map }) => {
+const Controls: React.FC<Props> = ({ map }) => {
   const [settings, setSettings] = useLocalStorage<Settings>(
     'layer-settings',
     Object.fromEntries(layers.map(l => [l.id, l.default]))
@@ -79,4 +79,4 @@ const Layers: React.FC<Props> = ({ map }) => {
   );
 };
 
-export default Layers;
+export default Controls;
