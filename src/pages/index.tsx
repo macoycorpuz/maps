@@ -3,7 +3,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import type { NextPage } from 'next';
 import { useState } from 'react';
 import Alerts from '../components/Alerts';
-import Layers from '../components/Controls';
+import Controls from '../components/Controls';
 import Footer from '../components/Footer';
 import Forecast from '../components/Forecast';
 import BarangayInfo from '../components/info/BarangayInfo';
@@ -15,20 +15,23 @@ import Tabs from '../components/Tabs';
 import Weather from '../components/Weather';
 import { useAuth } from '../hooks/useAuth/useAuth';
 import useMap from '../hooks/useMap/useMap';
-import useWeather from '../hooks/useWeather/useWeather';
+import { OneCallRequest } from '../hooks/weather/types/Request';
 
 const tabs = ['Info', 'Controls', 'Alerts', 'Studio'];
 
 const Map: NextPage = () => {
-  const [isForecastOpen, setIsForecastOpen] = useState(false);
   const { user, logout } = useAuth();
+  const [forecastRequest, setForecastRequest] = useState<OneCallRequest>({
+    latitude: 14.843759,
+    longitude: 120.8113694,
+  });
+  const [isForecastOpen, setIsForecastOpen] = useState(false);
   const { mapRef, searchRef, municipalityCode, barangayCode, idleMap } =
     useMap();
 
-  const { data, isLoading, error } = useWeather('weather', {
-    lat: 14.843759,
-    lon: 120.8113694,
-  });
+  const onOpenForecast = () => {
+    setIsForecastOpen(true);
+  };
 
   return (
     <>
@@ -43,17 +46,12 @@ const Map: NextPage = () => {
               <MunicipalityInfo code={municipalityCode} />
               <BarangayInfo code={barangayCode} />
             </Info>
-            <Layers map={idleMap} />
+            <Controls map={idleMap} />
             <Alerts />
             <Studio />
           </Tabs>
           <div>
-            <Weather
-              data={data}
-              isLoading={isLoading}
-              error={error}
-              onClick={() => setIsForecastOpen(true)}
-            />
+            <Weather onClick={onOpenForecast} />
             <Footer name={user?.attributes.name} logout={logout} />
           </div>
         </div>
@@ -61,7 +59,10 @@ const Map: NextPage = () => {
 
       <div ref={mapRef} className="fixed h-screen w-screen" />
       {isForecastOpen && (
-        <Forecast data={data} onClose={() => setIsForecastOpen(false)} />
+        <Forecast
+          request={forecastRequest}
+          onClose={() => setIsForecastOpen(false)}
+        />
       )}
     </>
   );

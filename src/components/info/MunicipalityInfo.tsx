@@ -7,32 +7,44 @@ import {
 } from '@heroicons/react/24/solid';
 import moment from 'moment';
 import Image from 'next/image';
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import municipality from '../../data/municipality.json';
-import { fetchGeo, fetchWeather } from '../../hooks/useWeather/useWeather';
 import InfoSpan from './InfoSpan';
 
 interface Props {
+  weather?: any;
   code: string;
 }
 
-const MunicipalityInfo: React.FC<Props> = ({ code }) => {
-  const [weather, setWeather] = useState<any>();
+const MiniWeather: React.FC<any> = ({ weather }) => {
+  if (!weather) return <div></div>;
+
+  return (
+    <div className="flex flex-col items-end justify-end text-right text-xs text-gray-600">
+      <div className="h-12 w-12">
+        <Image
+          src={`http://openweathermap.org/img/wn/${weather.current.weather[0].icon}@4x.png`}
+          height={60}
+          width={60}
+          objectFit="cover"
+          alt="Weather Icon"
+        />
+      </div>
+      <span>
+        {weather.current.weather[0].description.charAt(0).toUpperCase() +
+          weather.current.weather[0].description.slice(1)}{' '}
+        - {Math.trunc(weather.current.temp)}°C
+      </span>
+      <span>{moment.unix(weather.current.dt).format('LT')}</span>
+    </div>
+  );
+};
+
+const MunicipalityInfo: React.FC<Props> = ({ weather, code }) => {
   const data = useMemo(
     () => municipality.find(m => m.Mun_Code === code),
     [code]
   );
-
-  useEffect(() => {
-    if (!data) return;
-    const fetchData = async () => {
-      const location = await fetchGeo(data['Municipal Name']);
-      const result = await fetchWeather({ queryKey: [, location] });
-      setWeather(result);
-    };
-
-    fetchData();
-  }, [data]);
 
   if (!code) return null;
 
@@ -43,25 +55,7 @@ const MunicipalityInfo: React.FC<Props> = ({ code }) => {
           <h1 className="text-lg font-extrabold">{data?.['Municipal Name']}</h1>
           <span className="font-mono text-xs">Code: {data?.Mun_Code}</span>
         </div>
-        {weather && (
-          <div className="flex flex-col items-end justify-end text-right text-xs text-gray-600">
-            <div className="h-12 w-12">
-              <Image
-                src={`http://openweathermap.org/img/wn/${weather.current.weather[0].icon}@4x.png`}
-                height={60}
-                width={60}
-                objectFit="cover"
-                alt="Weather Icon"
-              />
-            </div>
-            <span>
-              {weather.current.weather[0].description.charAt(0).toUpperCase() +
-                weather.current.weather[0].description.slice(1)}{' '}
-              - {Math.trunc(weather.current.temp)}°C
-            </span>
-            <span>{moment.unix(weather.current.dt).format('LT')}</span>
-          </div>
-        )}
+        {/* <MiniWeather weather={weather} /> */}
       </div>
       <InfoSpan>
         <MapPinIcon className="mr-2 h-5 w-5" />

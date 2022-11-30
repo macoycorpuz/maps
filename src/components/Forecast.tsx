@@ -1,13 +1,34 @@
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import moment from 'moment';
 import Image from 'next/image';
+import { OneCallRequest } from '../hooks/weather/types/Request';
+import { useForecast } from '../hooks/weather/useWeather';
+import Loader from './Loader';
 
 interface Props {
-  data: any;
+  request: OneCallRequest;
   onClose: () => void;
 }
 
-const Forecast: React.FC<Props> = ({ data, onClose }) => {
+const Forecast: React.FC<Props> = ({ request, onClose }) => {
+  const { data, isLoading, isError } = useForecast(request);
+
+  if (isLoading) {
+    return (
+      <div className="flex w-full justify-center py-4">
+        <Loader classNames="h-12 w-12 border-4" />
+      </div>
+    );
+  }
+
+  if (isError) {
+    return (
+      <p className="py-2 text-center font-medium text-red-500">
+        Error loading forecast. Please contact admin.
+      </p>
+    );
+  }
+
   return (
     <div className="fixed right-2 bottom-2 z-10 flex h-28 rounded-lg bg-white p-2 text-gray-700 shadow-lg">
       <div className="w-1/5 border-r px-2 text-xs ">
