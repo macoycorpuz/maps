@@ -1,0 +1,101 @@
+const data = {
+  lat: 14.8438,
+  lon: 120.8114,
+  timezone: 'Asia/Manila',
+  timezone_offset: 28800,
+  current: {
+    dt: 1669822541,
+    sunrise: 1669759548,
+    sunset: 1669800305,
+    temp: 27.32,
+    feels_like: 29.92,
+    pressure: 1011,
+    humidity: 75,
+    dew_point: 22.5,
+    uvi: 0,
+    clouds: 84,
+    visibility: 10000,
+    wind_speed: 5.01,
+    wind_deg: 56,
+    wind_gust: 9.47,
+    weather: [
+      { id: 803, main: 'Clouds', description: 'broken clouds', icon: '04n' },
+    ],
+  },
+  minutely: [{ dt: 1669822560, precipitation: 0 }],
+  hourly: [
+    {
+      dt: 1669820400,
+      temp: 27.27,
+      feels_like: 29.82,
+      pressure: 1011,
+      humidity: 75,
+      dew_point: 22.45,
+      uvi: 0,
+      clouds: 83,
+      visibility: 10000,
+      wind_speed: 5.51,
+      wind_deg: 58,
+      wind_gust: 9.97,
+      weather: [
+        {
+          id: 803,
+          main: 'Clouds',
+          description: 'broken clouds',
+          icon: '04n',
+        },
+      ],
+      pop: 0.14,
+    },
+  ],
+  daily: [
+    {
+      dt: 1669777200,
+      sunrise: 1669759548,
+      sunset: 1669800305,
+      moonrise: 1669780920,
+      moonset: 1669823700,
+      moon_phase: 0.25,
+      temp: {
+        day: 31.55,
+        min: 24.75,
+        max: 32.3,
+        night: 27.27,
+        eve: 28.86,
+        morn: 24.87,
+      },
+      feels_like: { day: 35.5, night: 29.82, eve: 32.07, morn: 25.63 },
+      pressure: 1012,
+      humidity: 58,
+      dew_point: 22.19,
+      wind_speed: 6.37,
+      wind_deg: 63,
+      wind_gust: 11.16,
+      weather: [
+        {
+          id: 803,
+          main: 'Clouds',
+          description: 'broken clouds',
+          icon: '04d',
+        },
+      ],
+      clouds: 64,
+      pop: 0.15,
+      uvi: 8.98,
+    },
+  ],
+  alerts: [
+    {
+      sender_name:
+        'NWS Philadelphia - Mount Holly (New Jersey, Delaware, Southeastern Pennsylvania)',
+      event: 'Small Craft Advisory',
+      start: 1646344800,
+      end: 1646380800,
+      description:
+        '...SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 5 PM THIS\nAFTERNOON TO 3 AM EST FRIDAY...\n* WHAT...North winds 15 to 20 kt with gusts up to 25 kt and seas\n3 to 5 ft expected.\n* WHERE...Coastal waters from Little Egg Inlet to Great Egg\nInlet NJ out 20 nm, Coastal waters from Great Egg Inlet to\nCape May NJ out 20 nm and Coastal waters from Manasquan Inlet\nto Little Egg Inlet NJ out 20 nm.\n* WHEN...From 5 PM this afternoon to 3 AM EST Friday.\n* IMPACTS...Conditions will be hazardous to small craft.',
+      tags: [],
+    },
+  ],
+};
+
+export type OneCallResponse = typeof data;
