@@ -1,7 +1,7 @@
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import moment from 'moment';
 import Image from 'next/image';
-import { OneCallRequest } from '../hooks/weather/types/Request';
+import { OneCallRequest } from '../hooks/weather/types';
 import { useForecast } from '../hooks/weather/useWeather';
 import Loader from './Loader';
 
