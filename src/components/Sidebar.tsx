@@ -1,7 +1,4 @@
-import {
-  ChevronDoubleLeftIcon,
-  ChevronDoubleRightIcon,
-} from '@heroicons/react/24/solid';
+import { ChevronDoubleLeftIcon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
 import { classNames } from '../lib/classNames';
 
@@ -11,28 +8,31 @@ interface Props {
 
 const Sidebar: React.FC<Props> = ({ children }) => {
   const [isOpen, setIsOpen] = useState(true);
-  return (
-    <div
-      className={classNames(
-        'fixed z-10 flex h-full min-h-full flex-col overflow-y-auto bg-white',
-        isOpen ? 'w-80' : 'w-0'
-      )}
-    >
-      {children}
 
-      <button
-        id="toggle-sidebar"
-        onClick={() => setIsOpen(prev => !prev)}
+  return (
+    <div>
+      <div
         className={classNames(
-          'fixed top-1/2 z-10 rounded-r-lg bg-white py-2 px-1 hover:bg-gray-300',
-          isOpen ? 'left-80' : 'left-0'
+          'fixed z-10 flex h-full w-80 flex-col overflow-y-auto bg-white transition-transform duration-500 ease-in-out',
+          isOpen ? 'translate-x-0' : '-translate-x-full'
         )}
       >
-        {isOpen ? (
-          <ChevronDoubleLeftIcon className="h-5 w-5" />
-        ) : (
-          <ChevronDoubleRightIcon className="h-5 w-5" />
+        {children}
+      </div>
+
+      <button
+        onClick={() => setIsOpen(prev => !prev)}
+        className={classNames(
+          'fixed top-1/2 z-10 rounded-r-lg bg-white py-2 px-1 transition-transform duration-500 ease-in-out hover:bg-gray-300',
+          isOpen ? 'translate-x-80' : 'translate-x-0'
         )}
+      >
+        <ChevronDoubleLeftIcon
+          className={classNames(
+            'h-5 w-5 transition-transform duration-300 ease-in-out',
+            isOpen ? 'rotate-0' : 'rotate-180'
+          )}
+        />
       </button>
     </div>
   );
