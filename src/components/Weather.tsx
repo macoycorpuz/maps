@@ -16,7 +16,7 @@ const Weather: React.FC<Props> = ({ onClick }) => {
   if (isLoading) {
     return (
       <div className="flex w-full justify-center py-4">
-        <Loader classNames="h-12 w-12 border-4" />
+        <Loader classNames="h-10 w-10 border-3" />
       </div>
     );
   }
