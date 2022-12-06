@@ -1,6 +1,6 @@
 import { NextApiResponse } from 'next';
-import { general } from '../../data/general';
+import { data } from '../../data';
 
 export default function handler(response: NextApiResponse) {
-  response.status(200).json(general);
+  response.status(200).json(data);
 }
