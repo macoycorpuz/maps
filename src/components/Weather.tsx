@@ -4,25 +4,21 @@ import { CurrentRequest, OneCallRequest } from '../hooks/weather/types';
 import { useWeather } from '../hooks/weather/useWeather';
 
 interface Props {
-  location?: string;
-  request: CurrentRequest;
+  layerId?: string;
+  name?: string;
+  location: CurrentRequest;
   onClick: (_: OneCallRequest) => void;
 }
 
-const Weather: React.FC<Props> = ({ location, request, onClick }) => {
-  const { data, isError } = useWeather(request);
+const Weather: React.FC<Props> = ({ layerId, name, location, onClick }) => {
+  const { data, isError } = useWeather(location);
 
   if (data) {
-    const request = {
-      longitude: data.coord.lon,
-      latitude: data.coord.lat,
-    };
-
     return (
       <>
         <div
           className="flex cursor-pointer items-center justify-between px-2 hover:bg-blue-100"
-          onClick={() => onClick(request)}
+          onClick={() => onClick(data.coord)}
         >
           <div className="flex items-center space-x-1">
             <Image
@@ -39,7 +35,7 @@ const Weather: React.FC<Props> = ({ location, request, onClick }) => {
             </div>
           </div>
           <div className="flex flex-col items-end justify-end text-right">
-            <h2 className="text-sm font-medium">{location}</h2>
+            <h2 className="text-sm font-medium">{name}</h2>
             <h3 className="text-xs text-gray-600">
               {moment.unix(data.dt).format('ddd, MMM DD')}
             </h3>
@@ -51,6 +47,10 @@ const Weather: React.FC<Props> = ({ location, request, onClick }) => {
         </div>
       </>
     );
+  }
+
+  if (isError && layerId?.includes('barangay')) {
+    return <div className="hidden"></div>;
   }
 
   if (isError) {

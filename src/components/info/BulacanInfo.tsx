@@ -13,10 +13,6 @@ interface Props {
 const BulacanInfo: React.FC<Props> = ({ onClickWeather }) => {
   const [open, setOpen] = useState(false);
   const location = 'Malolos, Bulacan';
-  const request = {
-    latitude: 14.843759,
-    longitude: 120.8113694,
-  };
 
   return (
     <div className="border-t">
@@ -44,8 +40,8 @@ const BulacanInfo: React.FC<Props> = ({ onClickWeather }) => {
           ))}
         </ul>
         <Weather
-          location={location}
-          request={request}
+          name={location}
+          location={{ q: `${location},ph` }}
           onClick={onClickWeather}
         />
       </div>

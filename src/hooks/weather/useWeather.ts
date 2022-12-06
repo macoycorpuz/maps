@@ -3,32 +3,29 @@ import axios from 'axios';
 import { CurrentResponse, OneCallResponse } from './types';
 import { CurrentRequest, OneCallRequest } from './types/Request';
 
-const appid = `appid=${process.env.NEXT_PUBLIC_WEATHER_API_KEY}`;
-const domain = 'https://api.openweathermap.org/data';
-
 const instance = axios.create({
   baseURL: 'https://api.openweathermap.org/data',
   timeout: 1000,
 });
 
+const defaultParams = {
+  appid: process.env.NEXT_PUBLIC_WEATHER_API_KEY,
+  units: 'metric',
+};
+
 type FetchCurrent = (_: CurrentRequest) => Promise<CurrentResponse>;
 export const fetchCurrent: FetchCurrent = async req => {
-  let location = req.location && `&q=${req.location}`;
-  if (req.latitude && req.longitude)
-    location = `&lat=${req.latitude}&lon=${req.longitude}`;
-  const units = `&units=${req.units ?? 'metric'}`;
-  const url = `/2.5/weather?${appid}${units}${location}`;
-  const response = await instance.get<CurrentResponse>(url);
+  const params = { ...defaultParams, ...req };
+  const url = '/2.5/weather';
+  const response = await instance.get<CurrentResponse>(url, { params });
   return response.data;
 };
 
 type OneCall = (_: OneCallRequest) => Promise<OneCallResponse>;
 export const fetchOneCall: OneCall = async req => {
-  const location = `&lat=${req.latitude}&lon=${req.longitude}`;
-  const units = `&units=${req.units ?? 'metric'}`;
-  const exclude = `&exclude=${req.exclude}`;
-  const url = `/3.0/onecall?${appid}${units}${location}${exclude}`;
-  const response = await instance.get<OneCallResponse>(url);
+  const params = { ...defaultParams, ...req };
+  const url = '/3.0/onecall';
+  const response = await instance.get<OneCallResponse>(url, { params });
   return response.data;
 };
 
@@ -44,5 +41,6 @@ export const useForecast = (req: OneCallRequest) =>
   useQuery({
     queryKey: ['forecast', req],
     queryFn: () => fetchOneCall(req),
+    enabled: !!req,
     refetchOnWindowFocus: false,
   });

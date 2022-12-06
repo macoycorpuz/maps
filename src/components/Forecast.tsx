@@ -1,15 +1,13 @@
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import moment from 'moment';
 import Image from 'next/image';
-import { useMemo } from 'react';
-import { data as info } from '../data';
 import { OneCallRequest } from '../hooks/weather/types';
 import { useForecast } from '../hooks/weather/useWeather';
 
 interface Props {
+  name: string;
   isOpen: boolean;
-  code: string;
-  request: OneCallRequest;
+  location: OneCallRequest;
   onClose: () => void;
 }
 
@@ -19,9 +17,8 @@ const Layout: React.FC<React.PropsWithChildren> = ({ children }) => (
   </div>
 );
 
-const Forecast: React.FC<Props> = ({ code, isOpen, request, onClose }) => {
-  const { data, isError } = useForecast(request);
-  const view = useMemo(() => info.find(m => m.id === code), [code]);
+const Forecast: React.FC<Props> = ({ name, isOpen, location, onClose }) => {
+  const { data, isError } = useForecast(location);
 
   if (!isOpen) {
     return <div className="hidden">Hidden forecast</div>;
@@ -31,7 +28,7 @@ const Forecast: React.FC<Props> = ({ code, isOpen, request, onClose }) => {
     return (
       <Layout>
         <div className="flex justify-between px-2 pt-2 text-sm font-bold">
-          <h2 className="px-2">{view?.name}</h2>
+          <h2 className="px-2">{name}</h2>
           <button className="text-gray-900" onClick={onClose}>
             <XMarkIcon className="h-4 w-4" />
           </button>
