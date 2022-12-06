@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { classNames } from '../lib/classNames';
 
 interface Props {
-  children?: React.ReactNode;
+  children: React.ReactNode[];
 }
 
 const Sidebar: React.FC<Props> = ({ children }) => {
@@ -13,11 +13,15 @@ const Sidebar: React.FC<Props> = ({ children }) => {
     <div>
       <div
         className={classNames(
-          'fixed z-10 flex h-full w-80 flex-col overflow-y-auto bg-white transition-transform duration-500 ease-in-out',
+          'fixed z-10 flex h-full w-80 flex-col bg-white transition-transform duration-500 ease-in-out',
           isOpen ? 'translate-x-0' : '-translate-x-full'
         )}
       >
-        {children}
+        {children[0]}
+        <div className="flex flex-1 flex-col justify-between overflow-y-auto">
+          {children[1]}
+        </div>
+        {children[2]}
       </div>
 
       <button

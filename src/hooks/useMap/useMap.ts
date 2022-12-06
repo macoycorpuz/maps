@@ -1,4 +1,4 @@
-import mapboxgl from 'mapbox-gl';
+import mapboxgl, { MapLayerMouseEvent } from 'mapbox-gl';
 import { useEffect, useRef, useState } from 'react';
 import { onHover } from './hover';
 import {
@@ -9,13 +9,14 @@ import {
 } from './layers';
 import { initMap, initSearchBox, setVisibility } from './map';
 
-const useMap = () => {
+interface Request {
+  onClick: (_: MapLayerMouseEvent) => void;
+}
+
+const useMap = ({ onClick }: Request) => {
   const map = useRef<mapboxgl.Map>();
   const mapRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLDivElement>(null);
-
-  const [municipalityCode, setMunicipalityCode] = useState('');
-  const [barangayCode, setBarangayCode] = useState('');
   const [idleMap, setIdleMap] = useState<mapboxgl.Map>();
 
   useEffect(() => {
@@ -36,17 +37,8 @@ const useMap = () => {
       map.current.addLayer(fillLayerBarangay);
       onHover(map.current, fillLayerBarangay, sourceLayerBarangay);
 
-      map.current.on('click', fillLayerMunicipality.id, e => {
-        if (!e.features || !e.features.length) return;
-        setBarangayCode('');
-        setMunicipalityCode(e.features[0].properties?.ADM3_PCODE);
-      });
-
-      map.current.on('click', fillLayerBarangay.id, e => {
-        if (!e.features || !e.features.length) return;
-        setMunicipalityCode('');
-        setBarangayCode(e.features[0].properties?.Bgy_Code);
-      });
+      map.current.on('click', fillLayerMunicipality.id, onClick);
+      map.current.on('click', fillLayerBarangay.id, onClick);
 
       const defaults = localStorage.getItem('layer-settings');
       if (defaults) {
@@ -57,14 +49,12 @@ const useMap = () => {
     });
 
     map.current.on('idle', () => setIdleMap(map.current));
-  }, []);
+  }, [onClick]);
 
   return {
     map,
     mapRef,
     searchRef,
-    municipalityCode,
-    barangayCode,
     idleMap,
   };
 };

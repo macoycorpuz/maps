@@ -1,23 +1,55 @@
 import moment from 'moment';
 import Image from 'next/image';
+import { CurrentRequest, OneCallRequest } from '../hooks/weather/types';
 import { useWeather } from '../hooks/weather/useWeather';
-import Loader from './Loader';
 
 interface Props {
-  onClick: () => void;
+  location?: string;
+  request: CurrentRequest;
+  onClick: (_: OneCallRequest) => void;
 }
 
-const Weather: React.FC<Props> = ({ onClick }) => {
-  const { data, isLoading, isError } = useWeather({
-    latitude: 14.843759,
-    longitude: 120.8113694,
-  });
+const Weather: React.FC<Props> = ({ location, request, onClick }) => {
+  const { data, isError } = useWeather(request);
 
-  if (isLoading) {
+  if (data) {
+    const request = {
+      longitude: data.coord.lon,
+      latitude: data.coord.lat,
+    };
+
     return (
-      <div className="flex w-full justify-center py-4">
-        <Loader classNames="h-10 w-10 border-3" />
-      </div>
+      <>
+        <div
+          className="flex cursor-pointer items-center justify-between px-2 hover:bg-blue-100"
+          onClick={() => onClick(request)}
+        >
+          <div className="flex items-center space-x-1">
+            <Image
+              src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`}
+              height={60}
+              width={60}
+              alt="Weather Icon"
+            />
+            <div className="flex">
+              <h1 className="text-4xl font-medium">
+                {Math.trunc(data.main.temp)}
+              </h1>
+              <h3>°C</h3>
+            </div>
+          </div>
+          <div className="flex flex-col items-end justify-end text-right">
+            <h2 className="text-sm font-medium">{location}</h2>
+            <h3 className="text-xs text-gray-600">
+              {moment.unix(data.dt).format('ddd, MMM DD')}
+            </h3>
+            <h4 className="text-xs text-gray-600">
+              {data.weather[0].description.charAt(0).toUpperCase() +
+                data.weather[0].description.slice(1)}
+            </h4>
+          </div>
+        </div>
+      </>
     );
   }
 
@@ -30,37 +62,20 @@ const Weather: React.FC<Props> = ({ onClick }) => {
   }
 
   return (
-    <>
-      <div
-        className="flex cursor-pointer items-center justify-between px-2 hover:bg-blue-100"
-        onClick={onClick}
-      >
-        <div className="flex items-center space-x-1">
-          <Image
-            src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`}
-            height={60}
-            width={60}
-            alt="Weather Icon"
-          />
-          <div className="flex">
-            <h1 className="text-4xl font-medium">
-              {Math.trunc(data.main.temp)}
-            </h1>
-            <h3>°C</h3>
-          </div>
+    <div className="mx-auto w-full max-w-sm p-2">
+      <div className="flex animate-pulse items-center space-x-4">
+        <div className="h-10 w-10 rounded-full bg-gray-300"></div>
+        <div className="flex-1 space-y-2 py-1">
+          <div className="h-2 w-1/2 rounded bg-gray-300"></div>
+          <div className="h-2 w-1/3 rounded bg-gray-300"></div>
         </div>
-        <div className="flex flex-col items-end justify-end text-right">
-          <h2 className="text-sm font-medium">Malolos, Bulacan</h2>
-          <h3 className="text-xs text-gray-600">
-            {moment.unix(data.dt).format('ddd, MMM DD')}
-          </h3>
-          <h4 className="text-xs text-gray-600">
-            {data.weather[0].description.charAt(0).toUpperCase() +
-              data.weather[0].description.slice(1)}
-          </h4>
+        <div className="flex flex-1 flex-col items-end justify-center space-y-2 py-1">
+          <div className="h-2 w-2/3 rounded bg-gray-300"></div>
+          <div className="h-2 w-1/3 rounded bg-gray-300"></div>
+          <div className="h-2 w-2/3 rounded bg-gray-300"></div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

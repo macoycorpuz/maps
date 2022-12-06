@@ -1,61 +1,42 @@
-import {
-  BuildingOffice2Icon,
-  BuildingOfficeIcon,
-  CodeBracketSquareIcon,
-  MapPinIcon,
-  UserGroupIcon,
-  UserIcon,
-} from '@heroicons/react/24/solid';
-import React from 'react';
-import general from '../../data/general.json';
-import InfoSpan from './InfoSpan';
+import React, { useMemo } from 'react';
+import { data } from '../../data';
+import { OneCallRequest } from '../../hooks/weather/types';
+import Weather from '../Weather';
 
 interface Props {
-  children?: React.ReactNode;
+  code: string | number;
+  onClickWeather: (_: OneCallRequest) => void;
 }
 
-const Info: React.FC<Props> = ({ children }) => {
+const Info: React.FC<Props> = ({ code, onClickWeather }) => {
+  const view = useMemo(() => data.find(m => m.id === code), [code]);
+
+  if (!code) {
+    return (
+      <div className="flex h-full flex-col justify-between">
+        <div className="m-auto italic text-gray-500">Select a tile</div>
+      </div>
+    );
+  }
+
   return (
-    <div className="flex h-full flex-col justify-between p-2">
-      {children}
-      <div className="flex flex-col space-y-1 border-t-2 pt-2 text-xs">
-        <h1 className="text-base font-extrabold">{general['Province Name']}</h1>
-        <InfoSpan>
-          <CodeBracketSquareIcon className="mr-2 h-5 w-5" />
-          Province Code: {general.Pro_Code}
-        </InfoSpan>
-        <InfoSpan>
-          <MapPinIcon className="mr-2 h-5 w-5" />
-          Region: {general.Region}
-        </InfoSpan>
-        <InfoSpan>
-          <CodeBracketSquareIcon className="mr-2 h-5 w-5" />
-          Region Code: {general.Reg_Code}
-        </InfoSpan>
-        <InfoSpan>
-          <MapPinIcon className="mr-2 h-5 w-5" />
-          Land Area: {general['Land Area']}
-        </InfoSpan>
-        <InfoSpan>
-          <UserGroupIcon className="mr-2 h-5 w-5" />
-          Population: {general.Population}
-        </InfoSpan>
-        <InfoSpan>
-          <BuildingOfficeIcon className="mr-2 h-5 w-5" />
-          Number of Municipalities: {general['Number of Municipalities']}
-        </InfoSpan>
-        <InfoSpan>
-          <BuildingOffice2Icon className="mr-2 h-5 w-5" />
-          Number of Barangays: {general['Number of Baranggays']}
-        </InfoSpan>
-        <InfoSpan>
-          <UserIcon className="mr-2 h-5 w-5" />
-          Governor: {general.Governor}
-        </InfoSpan>
-        <InfoSpan>
-          <UserIcon className="mr-2 h-5 w-5" />
-          Vice Governor: {general['Vice Governor']}
-        </InfoSpan>
+    <div className="flex h-full flex-col py-4">
+      <div className="flex items-center justify-between border-b px-2 pb-2">
+        <div className="flex-1 pb-1 leading-3">
+          <h1 className="text-xl font-extrabold">{view?.name}</h1>
+          <span className="font-mono text-xs">Code: {view?.id}</span>
+        </div>
+      </div>
+      <Weather
+        request={{ location: `${view?.name},bulacan,ph` }}
+        onClick={onClickWeather}
+      />
+      <div className="space-y-2 p-2 text-sm">
+        {view?.metadata.map((d, i) => (
+          <span key={i} className="flex items-center">
+            {d.name}: {d.value}
+          </span>
+        ))}
       </div>
     </div>
   );

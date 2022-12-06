@@ -20,6 +20,7 @@
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
     "aws-amplify": "^5.0.4",
+    "axios": "^1.2.1",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
     "mapbox-gl": "^2.10.0",

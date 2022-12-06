@@ -2,12 +2,22 @@ import { InformationCircleIcon } from '@heroicons/react/24/outline';
 import { ChevronUpIcon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
 import { general } from '../../data/general';
+import { OneCallRequest } from '../../hooks/weather/types';
 import { classNames } from '../../lib/classNames';
+import Weather from '../Weather';
 
-interface Props {}
+interface Props {
+  onClickWeather: (_: OneCallRequest) => void;
+}
 
-const BulacanInfo: React.FC<Props> = () => {
+const BulacanInfo: React.FC<Props> = ({ onClickWeather }) => {
   const [open, setOpen] = useState(false);
+  const location = 'Malolos, Bulacan';
+  const request = {
+    latitude: 14.843759,
+    longitude: 120.8113694,
+  };
+
   return (
     <div className="border-t">
       <button
@@ -25,12 +35,19 @@ const BulacanInfo: React.FC<Props> = () => {
           )}
         />
       </button>
-      <div className={`space-y-1 px-2 py-2 text-xs ${!open && 'hidden'}`}>
-        {general[0].metadata.map((d, i) => (
-          <span key={i} className="flex items-center">
-            {d.name}: {d.value}
-          </span>
-        ))}
+      <div className={classNames(!open && 'hidden')}>
+        <ul className="space-y-1 p-2 text-xs">
+          {general[0].metadata.map((d, i) => (
+            <li key={i} className="flex items-center">
+              {d.name}: {d.value}
+            </li>
+          ))}
+        </ul>
+        <Weather
+          location={location}
+          request={request}
+          onClick={onClickWeather}
+        />
       </div>
     </div>
   );
