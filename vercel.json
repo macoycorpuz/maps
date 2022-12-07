@@ -1,5 +1,7 @@
 {
   "functions": {
-    "src/pages/api/layers.ts": {}
+    "src/pages/api/layers.ts": {
+      "maxDuration": 10
+    }
   }
 }
