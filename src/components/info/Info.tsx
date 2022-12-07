@@ -27,7 +27,9 @@ const Info: React.FC<Props> = ({ layerId, layer, onClickWeather }) => {
           <span className="font-mono text-xs">Code: {layer?.id}</span>
         </div>
       </div>
-      <Weather layerId={layerId} location={location} onClick={onClickWeather} />
+      {layerId.includes('municipality') && (
+        <Weather location={location} onClick={onClickWeather} />
+      )}
       <div className="space-y-2 p-2 text-sm">
         {layer?.metadata.map((d, i) => (
           <span key={i} className="flex items-center">

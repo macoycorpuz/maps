@@ -4,13 +4,12 @@ import { CurrentRequest, OneCallRequest } from '../hooks/weather/types';
 import { useWeather } from '../hooks/weather/useWeather';
 
 interface Props {
-  layerId?: string;
   name?: string;
   location: CurrentRequest;
   onClick: (_: OneCallRequest) => void;
 }
 
-const Weather: React.FC<Props> = ({ layerId, name, location, onClick }) => {
+const Weather: React.FC<Props> = ({ name, location, onClick }) => {
   const { data, isError } = useWeather(location);
 
   if (data) {
@@ -47,10 +46,6 @@ const Weather: React.FC<Props> = ({ layerId, name, location, onClick }) => {
         </div>
       </>
     );
-  }
-
-  if (isError && layerId?.includes('barangay')) {
-    return <div className="hidden"></div>;
   }
 
   if (isError) {
