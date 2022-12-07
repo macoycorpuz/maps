@@ -21,7 +21,7 @@ export const general = [
       },
       {
         name: 'Population',
-        value: '3,708,890.00',
+        value: '3,708,890',
         icon: 'UserGroupIcon',
       },
       {
