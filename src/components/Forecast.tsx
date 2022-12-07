@@ -68,22 +68,30 @@ const Forecast: React.FC<Props> = ({ name, isOpen, location, onClose }) => {
 
   if (isError) {
     return (
-      <p className="py-2 text-center font-medium text-red-500">
-        Error loading forecast. Please contact admin.
-      </p>
+      <Layout>
+        <button
+          className="absolute right-2 top-2 text-gray-900"
+          onClick={onClose}
+        >
+          <XMarkIcon className="h-4 w-4" />
+        </button>
+        <p className="p-8 text-center font-medium text-red-500">
+          Error loading forecast. Please contact admin.
+        </p>
+      </Layout>
     );
   }
 
   return (
     <Layout>
       <div className="flex items-center justify-between px-4 pt-2 text-sm font-bold">
-        <div className="h-2 w-2/3 rounded bg-gray-300"></div>
-        <button className="text-gray-400" onClick={onClose}>
+        <div className="h-2 w-2/3 animate-pulse rounded bg-gray-300"></div>
+        <button className="text-gray-900" onClick={onClose}>
           <XMarkIcon className="h-4 w-4" />
         </button>
       </div>
-      <div className="flex py-2 pl-4">
-        <div className="w-24 space-y-2 border-r pr-4 text-xs">
+      <div className="flex animate-pulse py-2 pl-4">
+        <div className="w-44 space-y-2 border-r pr-4 text-xs">
           <div className="h-2 rounded bg-gray-300"></div>
           <div className="h-2 w-1/2 rounded bg-gray-300"></div>
           <div className="h-2 rounded bg-gray-300"></div>

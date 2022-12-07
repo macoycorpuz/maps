@@ -24,27 +24,24 @@ const tabs = ['Info', 'Controls', 'Alerts', 'Studio'];
 const Map: NextPage = () => {
   const [code, setCode] = useState('');
   const [layerId, setLayerId] = useState('');
+  const [forecastName, setForecastName] = useState('');
   const [isForecastOpen, setIsForecastOpen] = useState(false);
   const [forecastLocation, setForecastLocation] = useState<OneCallRequest>(geo);
 
-  const onClick = useCallback((event: MapLayerMouseEvent) => {
-    if (!event.features || !event.features.length) return;
-    const { lat, lng } = event.lngLat;
-    const { properties, layer } = event.features[0];
-    const mapCode = properties?.Bgy_Code || properties?.ADM3_PCODE;
-    setCode(mapCode);
-    setLayerId(layer.id);
-    setForecastLocation({ lat, lon: lng });
-  }, []);
-
-  const onShowForecast = (location: OneCallRequest) => {
-    setForecastLocation(location);
-    setIsForecastOpen(true);
-  };
-
   const { user, logout } = useAuth();
   const { data: layer } = useLayers({ id: code });
-  const { mapRef, searchRef, idleMap } = useMap({ onClick });
+  const { mapRef, searchRef, idleMap } = useMap({
+    onClick: useCallback((event: MapLayerMouseEvent) => {
+      if (!event.features || !event.features.length) return;
+      const { lat, lng } = event.lngLat;
+      const { properties, layer } = event.features[0];
+      const mapCode = properties?.Bgy_Code || properties?.ADM3_PCODE;
+      setCode(mapCode);
+      setLayerId(layer.id);
+      setForecastName(properties?.Mun_Name || properties?.ADM3_EN);
+      setForecastLocation({ lat, lon: lng });
+    }, []),
+  });
 
   if (!user) {
     return (
@@ -62,21 +59,30 @@ const Map: NextPage = () => {
           <Info
             layerId={layerId}
             layer={layer}
-            onClickWeather={onShowForecast}
+            onClickWeather={location => {
+              setForecastLocation(location);
+              setIsForecastOpen(true);
+            }}
           />
           <Controls map={idleMap} />
           <Alerts />
           <Studio />
         </Tabs>
         <div className="sticky bottom-0 w-full bg-white">
-          <BulacanInfo onClickWeather={onShowForecast} />
+          <BulacanInfo
+            onClickWeather={location => {
+              setForecastName('Malolos Bulacan');
+              setForecastLocation(location);
+              setIsForecastOpen(true);
+            }}
+          />
           <Footer name={user?.attributes.name} logout={logout} />
         </div>
       </Sidebar>
 
       <div ref={mapRef} className="fixed h-screen w-screen" />
       <Forecast
-        name={layer?.name || 'Malolos Bulacan'}
+        name={forecastName}
         isOpen={isForecastOpen}
         location={forecastLocation}
         onClose={() => setIsForecastOpen(false)}
