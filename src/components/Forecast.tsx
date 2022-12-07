@@ -33,16 +33,16 @@ const Forecast: React.FC<Props> = ({ name, isOpen, location, onClose }) => {
             <XMarkIcon className="h-4 w-4" />
           </button>
         </div>
-        <div className="flex whitespace-nowrap px-4 py-2">
-          <div className="border-r pr-2 text-xs">
-            <h4>Feels like: {data.current.feels_like}°C</h4>
+        <div className="flex space-x-2 whitespace-nowrap py-2 px-4">
+          <div className="border-r pr-4 text-xs">
+            <h4>Feels like: {Math.trunc(data.current.feels_like)}°C</h4>
             <h4>Humidity: {data.current.humidity}%</h4>
-            <h4>Dew point: {data.current.dew_point}°C</h4>
+            <h4>Dew point: {Math.trunc(data.current.dew_point)}°C</h4>
             <h4>Wind: {data.current.wind_speed}m/s</h4>
             <h4>Pressure: {data.current.pressure}hPa</h4>
-            <h4>Visibility: {data.current.visibility / 1000}km</h4>
+            <h4>Precipitation: {data.daily[0].pop * 100}%</h4>
           </div>
-          <ul className="flex items-center justify-center space-x-4 px-4 text-xs xs:flex-wrap">
+          <ul className="flex items-center justify-center space-x-4 text-xs xs:flex-wrap">
             {data.daily.map((day: any) => (
               <li
                 key={day.dt}
